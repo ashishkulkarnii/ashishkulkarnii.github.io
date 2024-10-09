@@ -24,16 +24,16 @@ When you are initially working your website, it is very useful to be able to pre
     ```bash
     sudo apt install ruby-dev ruby-bundler nodejs
     ```
+    If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+
     On MacOS the commands are:
     ```bash
     brew install ruby
     brew install node
     gem install bundler
     ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+1. Run `bundle config set --local path 'vendor/bundle'` and then `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change. If you get the error `You have already activated X v1, but your Gemfile requires X v2.`, run `gem update X --user-install` and try `bundle exec jekyll serve -l -H localhost`.
 
 ## Using Docker
 

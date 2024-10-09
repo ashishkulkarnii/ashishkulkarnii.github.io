@@ -1,8 +1,8 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Ashish Kulkarni's Academic Profile"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
