@@ -1,6 +1,6 @@
 ---
 title: "My Blender Models"
-excerpt: "A space for my Blender models.<br><img src=\"https://github.com/ashishkulkarnii/blender/blob/main/ceiling-fan/render/out.gif?raw=true\">Ceiling fan render</img>"
+excerpt: "A space for my Blender models.<br><img src='https://github.com/ashishkulkarnii/blender/blob/main/ceiling-fan/render/out.gif?raw=true'>Ceiling fan render</img>"
 collection: portfolio
 permalink: "projects/blender"
 ---
