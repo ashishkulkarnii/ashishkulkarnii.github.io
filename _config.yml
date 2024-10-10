@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Ashish Kulkarni"  # sidebar name
   pronouns         : # example: "she/her"
-  bio              : "SDE at Nasdaq, CS degree from PES University"
+  bio              : "SDE at Nasdaq, Bachelor's degree in CS from PES University"
   location         : "Bengaluru, India"
   employer         : # Employer name
   uri              : # URL
@@ -235,8 +235,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
       related: true
   # _pages
   - scope:
@@ -252,8 +252,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -261,8 +261,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _portfolio
   - scope:
       path: ""
@@ -270,8 +270,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
+      share: false
+      comment: false
   # _talks
   - scope:
       path: ""
@@ -279,7 +279,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 
 # Sass/SCSS

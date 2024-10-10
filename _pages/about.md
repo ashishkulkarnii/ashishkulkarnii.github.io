@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Ashish Kulkarni's Academic Profile"
+title: "Ashish Kulkarni"
 author_profile: true
 redirect_from:
   - /about/
