@@ -1,6 +1,6 @@
 ---
 title: "Graph Based Recommender"
-excerpt: "Semester 6: NAM Project. A recommender system using link prediction algorithms."
+excerpt: "Semester 6: NAM Project. A recommender system using link prediction algorithms.<br><img src='https://ashishkulkarnii.github.io/images/vertopal_5539c3faac5f400784bd83c73ba51ea8/31699b46879260ba17e80fff9f144439d0deba91.png'>"
 collection: portfolio
 permalink: "projects/graph-based-recommender"
 ---
