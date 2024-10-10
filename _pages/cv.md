@@ -9,56 +9,38 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- Bachelor of Technology, Computer Science
+  PES University
+  - **Relevant Coursework**: : Data Structures and Algorithms (C++, Java, Python), Object Oriented Programming (Java), DBMS (MySQL, PostgreSQL), Graph Theory (Graph Neural Networks, Neo4j), AR/VR (Blender, GLUT, Unity), Deep Learning (PyTorch, TensorFlow)
+  - **Awards**: 3x Distinction
+  - **Specialization**: Machine Intelligence and Data Science
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Experience
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+1. Software Developer at [Nasdaq](https://www.nasdaq.com/)
+1. Computer Vision Intern at [StanceBeam](https://www.stancebeam.com/)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+## Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+## Publications
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+## Technical Skills
+
+- **Languages**: Python, C++, Java, C
+- **Concepts**: Operating System, Artificial Intelligence, Machine Learning, Neural Networks, Database, Agile Methodology, Cloud Computing, Generative AI, Large Language Models, Computer Vision, Data Science, Computer Networks
+- **Certifications**: AWS Educate Introduction to Cloud 101, Amazon Web Services; Quantum Computing Using Qiskit, PESU I/O; LFD103, The Linux Foundation
+
+## Articles
 ======
-* Currently signed in to 43 different slack teams
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>

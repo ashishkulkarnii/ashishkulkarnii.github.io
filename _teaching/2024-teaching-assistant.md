@@ -8,7 +8,7 @@ date: 2024-01-01
 location: "Bengaluru, India"
 ---
 
-During my 8th undergraduate semester, I served as a teaching assistant under Prof. Priya Badrinath, for 180+ students.
+During my 8th undergraduate semester, I served as a teaching assistant under [Prof. Priya Badrinath](https://staff.pes.edu/nm1327/), for 180+ students.
 [My GitHub repository](https://github.com/ashishkulkarnii/oops-java-ta) contains assignments and files I created during my stint as an undergraduate TA for the 6th-semester course _Object-Oriented Analysis and Design with Java_ (UE21CS352B).
 - Created lab contests to test students' understanding of Java and OOP concepts including inheritance, polymorphism, multi-threading, serialization, etc. Crafted a total of 14 detailed problem statements, generated test cases to evaluate them, and hosted them on HackerRank.
 - Wrote multi-page case studies for students to create use-case models, class diagrams, activity diagrams, and Java solutions.
