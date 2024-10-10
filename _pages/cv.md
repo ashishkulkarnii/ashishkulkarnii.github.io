@@ -19,8 +19,8 @@ redirect_from:
 
 ## Experience
 
-1. Software Developer at [Nasdaq](https://www.nasdaq.com/)
-1. Computer Vision Intern at [StanceBeam](https://www.stancebeam.com/)
+1. Software Developer at [Nasdaq](https://www.nasdaq.com/).
+1. Computer Vision Intern at [StanceBeam](https://www.stancebeam.com/).
 
 ## Teaching
 
