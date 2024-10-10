@@ -23,12 +23,13 @@ redirect_from:
 1. Computer Vision Intern at [StanceBeam](https://www.stancebeam.com/)
 
 ## Teaching
-======
+
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
 ## Publications
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
@@ -40,7 +41,7 @@ redirect_from:
 - **Certifications**: AWS Educate Introduction to Cloud 101, Amazon Web Services; Quantum Computing Using Qiskit, PESU I/O; LFD103, The Linux Foundation
 
 ## Articles
-======
+
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
