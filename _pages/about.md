@@ -36,8 +36,11 @@ You can read more about this project [here](/projects/glaucoma-detection), or re
 By the time I reached my 6th semester, genertive AI was all the rage.
 [ChatGPT](https://chatgpt.com) had become a household name, and new generative models were being released seemingly every single day.
 My friends and I were very interested in image and video generation models, and decided to pursue researching this as part of our capstone project.
+We had the privilege of presenting an approach to video generation as a [poster](/files/video-generation-poster.pdf) at [C-MInDS, IIT Bombay](https://www.minds.iitb.ac.in/).
 We messed around with diffusion-based text-to-image models, and came across a parameter classifier-free guidance scale, which we found had a significant impact on the generated output.
 Read more about our research [here](/publication/icici2024).
+
+![](images/iitb-poster-presentation.png)
 
 After my 6th semester, I joined Nasdaq as a summer intern. As my internship project, I was tasked with creating an NLP-based minimum viable product, and after 2 months, pitched it to the business team.
 The product was greenlight, and my internship duration was extended to allow me to continue working on it.
