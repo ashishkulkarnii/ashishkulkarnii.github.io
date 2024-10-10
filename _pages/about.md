@@ -42,12 +42,13 @@ Read more about our research [here](/publication/icici2024).
 
 ![](images/iitb-poster-presentation.png)
 
-After my 6th semester, I joined Nasdaq as a summer intern. As my internship project, I was tasked with creating an NLP-based minimum viable product, and after 2 months, pitched it to the business team.
-The product was greenlight, and my internship duration was extended to allow me to continue working on it.
+After my 6th semester, I joined Nasdaq as a summer intern. For my internship project, I was tasked with creating an NLP-based minimum viable product, and after 2 months, pitched it to the product team.
+The product was greenlit, and my internship duration was extended to allow me to continue working on it.
 
 Over the next 11 months of my internship, I took the product from MVP, to prototype phase, to its first release as the primary Python developer.
 This project was the perfect fit for me, as I was given an R&D role, with tons of ownership over the product.
 Apart from the majority of backend development, I played an important role in database schema designing, creating a cloud-native architecture and provisioning resources using [Terraform](https://www.terraform.io/) on [AWS](https://aws.amazon.com/), and evaluating NLP and LLM models for very specific use-cases.
+Today, I work as a full-time software developer on the same project. My day-to-day varies between developing backend process, GenAI integration, and most recently, implementing cloud-based malware protection.
 
 During my 8th semester, along with my internship, I served as an undergraduate teaching assistant for a 6th-semester course for 4 months, you can read more about that [here](/teaching/2024-teaching-assistant).
 In parallel, I mentored at a 6-month long machine learning bootcamp at [Nasdaq, Bengaluru](https://www.nasdaq.com/about/careers/bangalore).
