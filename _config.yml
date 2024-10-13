@@ -21,7 +21,7 @@ repository               : "ashishkulkarnii/ashishkulkarnii.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "me-on-nasdaq-tower.png"
   name             : "Ashish Kulkarni"  # sidebar name
   pronouns         : # example: "she/her"
   bio              : "SDE at Nasdaq, Bachelor's degree in CS from PES University"
