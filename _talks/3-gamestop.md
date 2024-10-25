@@ -12,4 +12,4 @@ This year, when a community on Reddit famously manipulated GameStop shares, I wa
 For those of you who are somehow oblivious to this incident, this article is for you.
 And those of you who’d like a deeper analysis into this incident, although you’ve heard of it, this article is for you too.
 
-Read more [here](ashishkulkarnii.medium.com/c14eaf0e6907).
+Read more [here](https://ashishkulkarnii.medium.com/c14eaf0e6907).
