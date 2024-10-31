@@ -8,9 +8,9 @@ permalink: "projects/glaucoma-detection"
 Using CNNs to classify an image into normal or glaucomatous, using retinal fundus images by transfer learning, and evaluating 2 histogram equalisation-based image preprocessing techniques. 
 The dataset used is [ACRIMA](https://figshare.com/s/c2d31f850af14c5b5232), containing 705 labelled images: _396_ glaucomatous images and _309_ normal images.
 
-
 This project was a collaboration with [H Shafeeq Ahmed](https://orcid.org/0000-0003-1671-8474).
-Read our paper [here](/files/glaucoma-detection-preprint.pdf).
+Our preprint is hosted on medRxiv [here](https://doi.org/10.1101/2024.10.25.24316109), you can also read it [here](/files/glaucoma-detection-preprint.pdf).
+
 
 ## Model Comparison
 
@@ -30,8 +30,9 @@ Data augmentation involved random change in contrast, flip along horizontal or v
 
 ![Image augmentation](https://raw.githubusercontent.com/ashishkulkarnii/glaucoma-classification/refs/heads/main/TeX-source/images/transformations.png)
 
-The notebooks can be accessed in the [notebooks folder](notebooks) folder of this repo.
-[Here](notebooks/v16/clahe/clahe.ipynb) is an example of the notebook used for training a model based on VGG-19 using CLAHE for image preprocessing.
+The notebooks can be accessed in the [notebooks folder](https://github.com/ashishkulkarnii/glaucoma-classification/tree/main/notebooks) folder of [this repo](https://github.com/ashishkulkarnii/glaucoma-classification).
+[Here](https://github.com/ashishkulkarnii/glaucoma-classification/blob/main/notebooks/v16/clahe/clahe.ipynb) is an example of the notebook used for training a model based on VGG-19 using CLAHE for image preprocessing.
+
 
 ### Results
 
@@ -46,11 +47,13 @@ The notebooks can be accessed in the [notebooks folder](notebooks) folder of thi
 |     DenseNet-121      |     0.9577      |     0.9516         |     0.9625         |     0.9625      |     0.9960            |     23815490             |
 |     EfficientNetB7    |     0.9225      |     0.8871         |     0.95           |     0.9325      |     0.9625            |     106041497            |
 
+
 ## Preprocessing Techniques Comparison
 
 Two different preprocessing techniques were compared:
 - Adaptive Histogram Equalisation
 - Contrast-Limited Adaptive Histogram Equalisation
+
 
 ### Results
 
@@ -67,6 +70,7 @@ Two different preprocessing techniques were compared:
 | DenseNet-121   | 0.929577465 | 0.887096774 | 0.9625      | 0.93902439  | 0.985080645    | 23815490             |
 | EfficientNetB7 | 0.838028169 | 0.822580645 | 0.85        | 0.855345912 | 0.926814516    | 106041497            |
 
+
 #### II. Contrast-Limited Adaptive Histogram Equalisation
 
 | Model          | Accuracy    | Specificity | Sensitivity | F1 Score    | Area Under ROC | Number of Parameters |
@@ -79,6 +83,7 @@ Two different preprocessing techniques were compared:
 | Xception       | 0.781690141 | 0.935483871 | 0.6625      | 0.773722628 | 0.921169355    | 54416682             |
 | DenseNet-121   | 0.950704225 | 0.935483871 | 0.9625      | 0.956521739 | 0.987701613    | 23815490             |
 | EfficientNetB7 | 0.894366197 | 0.838709677 | 0.9375      | 0.909090909 | 0.925604839    | 106041497            |
+
 
 #### III. Comparing the Averages of Models
 
