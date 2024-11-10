@@ -33,7 +33,7 @@ A friend of mine, student of medicine, and I worked on a comparative study that 
 
 You can read more about this project [here](/projects/glaucoma-detection), or read [our preprint paper](files/glaucoma-detection-preprint.pdf).
 
-By the time I reached my 6th semester, genertive AI was all the rage.
+By the time I reached my 6th semester, generative AI was all the rage.
 [ChatGPT](https://chatgpt.com) had become a household name, and new generative models were being released seemingly every single day.
 My friends and I were very interested in image and video generation models, and decided to pursue researching this as part of our capstone project.
 We had the privilege of presenting an approach to video generation as a [poster](/files/video-generation-poster.pdf) at [C-MInDS, IIT Bombay](https://www.minds.iitb.ac.in/).
