@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 Hi, I'm Ashish Kulkarni!
-I'm a Computer Science graduate from PES University, and a Software Developer at [Nasdaq](https://www.nasdaq.com/).
+I'm a Computer Science graduate from *PES University*, and a Software Developer at [Nasdaq](https://www.nasdaq.com/).
 This site is a platform for me to showcase some of the work I've accumulated over the past few years: projects, articles, and more.
 Use the tabs above, and scroll around to see some of my work!
 
@@ -23,7 +23,7 @@ Within those 24 hours, I learnt about API calls, taught myself Python, and manag
 You can check the project out [here](/projects/covibot).
 The hackathon fueled my desire to build more complex systems, and pursue research.
 
-The first experience I had with research was at a startup called [StanceBeam](https://www.stancebeam.com/). I interned at StanceBeam for two months in 2022, between my 4th and 5th semesters. StanceBeam is a sports technology company with an ambitious mission: to disrupt the cricket decision-review systems of today with a far cheaper alternative. As a computer vision intern, I worked on spatial positioning using stereovision and epipolar geometry. The work I did during these two productive months was demoed to BCCI in Dubai. This kind of exposure, early in my career, primed the way I approach problems today.
+The first experience I had with research was at a startup called [StanceBeam](https://www.stancebeam.com/). I interned at *StanceBeam* for two months in 2022, between my 4th and 5th semesters. *StanceBeam* is a sports technology company with an ambitious mission: to disrupt the cricket decision-review systems of today with a far cheaper alternative. As a computer vision intern, I worked on spatial positioning using stereovision and epipolar geometry. The work I did during these two productive months was demoed to *BCCI* in Dubai. This kind of exposure, early in my career, primed the way I approach problems today.
 
 Around the same time, my interest in deep learning grew.
 I was especially interested in the way inputs can be preprocessed to affect scores, and how a neural net's architecture can change it's effectiveness in performing a task, in this case the detection of glaucoma using a retinal fundus image.
@@ -42,7 +42,7 @@ Read more about our research [here](/publication/icici2024).
 
 ![](images/iitb-poster-presentation.png)
 
-After my 6th semester, I joined Nasdaq as a summer intern. For my internship project, I was tasked with creating an NLP-based minimum viable product, and after 2 months, pitched it to the product team.
+After my 6th semester, I joined *Nasdaq* as a summer intern. For my internship project, I was tasked with creating an NLP-based minimum viable product, and after 2 months, pitched it to the product team.
 The product was greenlit, and my internship duration was extended to allow me to continue working on it.
 
 ![](images/me-on-nasdaq-tower.png)
@@ -52,7 +52,7 @@ This project was the perfect fit for me, as I was given an R&D role, with tons o
 Apart from the majority of backend development, I played an important role in database schema designing, creating a cloud-native architecture and provisioning resources using [Terraform](https://www.terraform.io/) on [AWS](https://aws.amazon.com/), and evaluating NLP and LLM models for very specific use-cases.
 Today, I work as a full-time software developer on the same project. My day-to-day varies between developing backend process, GenAI integration, and most recently, implementing cloud-based malware protection.
 
-During my 8th semester, along with my internship, I served as an undergraduate teaching assistant for a 6th-semester course for 4 months, you can read more about that [here](/teaching/2024-teaching-assistant).
+During my 8th semester, along with my internship, I served as an undergraduate teaching assistant for a 6th-semester course on object oriented analysis and design using Java, which you can read more about [here](/teaching/2024-teaching-assistant).
 In parallel, I mentored at a 6-month long machine learning bootcamp at [Nasdaq, Bengaluru](https://www.nasdaq.com/about/careers/bangalore).
 
 ![Nasdaq Bengaluru Developers community picture](/images/nasdaq-developers-community.jpg)
