@@ -11,9 +11,34 @@ These functionalities were combined to form:
 - a command-line interface. Clone [this repository](https://github.com/ashishkulkarnii/image-editing-cli) to try it out.
 - A [Streamlit app](https://image-editing.streamlit.app/).
 
-### Command-line usage:
+## UI
 
-General Commands:
+The UI, hosted on [Streamlit](https://streamlit.io/), is a simple way to interact with the same functionalities implemented in the command-line app.
+You can see how the UI looks in the following screenshots:
+
+Original image | Brightened image
+-- | --
+![Original image](/images/image-editor-streamlit/1.png) | ![Brightness +73](/images/image-editor-streamlit/2.png)
+
+## Command-line
+
+### Functionalities
+
+- greyscale conversion
+- inverting
+- solarizing
+- contrast sdjusting
+- resizing
+- brightness adjusting
+- gamma correction
+- color pop
+- mean blur
+- gaussian blur
+- color name in English to BGR
+
+### Usage
+
+#### General Commands:
 * load &lt;filename>.&lt;extension>
 * save [&lt;filename>] [&lt;extension>]
 * exit [save]
@@ -21,9 +46,9 @@ General Commands:
 * undo
 * redo
 
-`Note: [] means optional and all values are taken as float unless mentioned otherwise`
+`Note: [] means optional and all values are taken as float unless mentioned otherwise.`
 
-Image Manipulation Commands:
+#### Image Manipulation Commands:
 * greyscale
 * invert
 * solarize &lt;"<" or ">"> &lt;threshold value from 0 to 255>
@@ -35,16 +60,3 @@ Image Manipulation Commands:
 * mean blur &lt;kernel size (integer)>
 * gaussian blur &lt;kernel size (integer)> [&lt;sigma value, default sigma = 1>]
 * bgr &lt;color name in English>
-
-## Functionalities:
-- [x] greyscale conversion
-- [x] inverting
-- [x] solarizing
-- [x] contrast sdjusting
-- [x] resizing
-- [x] brightness adjusting
-- [x] gamma correction
-- [x] color pop
-- [x] mean blur
-- [x] gaussian blur
-- [x] color name in English to BGR
