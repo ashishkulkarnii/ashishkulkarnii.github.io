@@ -18,18 +18,18 @@ I decided to pursue my undergraduate studies in Computer Science due to my affin
 However, my first true experience with building software was only after I started at [PES University](https://pes.edu/).
 
 In my first semester, I took part in a virtual hackathon.
-This hackathon was the first time I wrote code with any real purpose, unlike the assigments I had completed in the past.
+This hackathon was the first time I wrote code with any real purpose, unlike the assignments I had completed in the past.
 Within those 24 hours, I learnt about API calls, taught myself Python, and managed to snag a Top 5 position.
 You can check the project out [here](/projects/covibot).
 The hackathon fueled my desire to build more complex systems, and pursue research.
 
-The first experience I had with research was at a startup called [StanceBeam](https://www.stancebeam.com/). I interned at *StanceBeam* for two months in 2022, between my 4th and 5th semesters. *StanceBeam* is a sports technology company with an ambitious mission: to disrupt the cricket decision-review systems of today with a far cheaper alternative. As a computer vision intern, I worked on spatial positioning using stereovision and epipolar geometry. The work I did during these two productive months was demoed to *BCCI* in Dubai. This kind of exposure, early in my career, primed the way I approach problems today.
+The first experience I had with research was at a startup called [StanceBeam](https://www.stancebeam.com/). I interned at *StanceBeam* for two months in 2022, between my 4th and 5th semesters. *StanceBeam* is a sports technology company with an ambitious mission: to disrupt the cricket decision-review systems of today with a far cheaper alternative. As a computer vision intern, I worked on spatial positioning using stereo vision and epipolar geometry. The work I did during these two productive months was demoed to *BCCI* in Dubai. This kind of exposure, early in my career, primed the way I approach problems today.
 
 Around the same time, my interest in deep learning grew.
 I was especially interested in the way inputs can be preprocessed to affect scores, and how a neural net's architecture can change it's effectiveness in performing a task, in this case the detection of glaucoma using a retinal fundus image.
 A friend of mine, student of medicine, and I worked on a comparative study that looks at
 1. the difference in performance between CNN architectures, and
-2. the effect histogram equilization based preprocessing techniques have on the final scores.
+2. the effect histogram equalization based preprocessing techniques have on the final scores.
 
 You can read more about this project [here](/projects/glaucoma-detection), or read [our preprint paper](files/glaucoma-detection-preprint.pdf).
 
