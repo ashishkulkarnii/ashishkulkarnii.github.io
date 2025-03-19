@@ -26,8 +26,8 @@ author:
   pronouns         : # example: "she/her"
   bio              : "SDE, Bachelor's in CS from PES University"
   location         : "Bengaluru, India"
-  employer         : "Nasdaq" # Employer name
-  employer_url     : # Employer URL
+  employer         : "Nasdaq"  # Employer name
+  employer_url     : "https://www.nasdaq.com/about/careers/bangalore"  # Employer URL
   uri              : # URL
   email            : "ashish2002kulkarni@gmail.com"
 
