@@ -24,9 +24,9 @@ author:
   avatar           : "me.jpeg"
   name             : "Ashish Kulkarni"  # sidebar name
   pronouns         : # example: "she/her"
-  bio              : "SDE at Nasdaq, Bachelor's degree in CS from PES University"
+  bio              : "SDE, Bachelor's in CS from PES University"
   location         : "Bengaluru, India"
-  employer         : # Employer name
+  employer         : "Nasdaq" # Employer name
   uri              : # URL
   email            : "ashish2002kulkarni@gmail.com"
 
