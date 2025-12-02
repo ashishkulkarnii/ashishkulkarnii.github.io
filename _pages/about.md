@@ -8,7 +8,8 @@ redirect_from:
 ---
 
 Hi, I'm Ashish Kulkarni!
-I'm a Computer Science graduate from *PES University*, and a Software Developer at [Nasdaq](https://www.nasdaq.com/).
+I'm currently Computer Science master's student at *University of California, Riverside*.
+I previously graduated from *PES University* with a bachelor's in Computer Science in 2024 and worked at [Nasdaq](https://www.nasdaq.com/) for over 2 years.
 This site is a platform for me to showcase some of the work I've accumulated over the past few years: projects, articles, and more.
 Use the tabs above, and scroll around to see some of my work!
 

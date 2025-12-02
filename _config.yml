@@ -24,18 +24,24 @@ author:
   avatar           : "me.jpeg"
   name             : "Ashish Kulkarni"  # sidebar name
   pronouns         : # example: "she/her"
-  bio              : "SDE, Bachelor's in CS from PES University"
-  location         : "Bengaluru, India"
-  employer         : "Nasdaq"  # Employer name
-  employer_url     : "https://www.nasdaq.com/"  # Employer URL
+  bio              : "MS in CS at UC Riverside, ex-SDE at Nasdaq."
+  location         : "Riverside, CA". # Bengaluru, India
+  employer         : "University of California, Riverside"  # Employer name
+  employer_url     : #"https://www.nasdaq.com/"  # Employer URL
   uri              : # URL
   email            : "ashish2002kulkarni@gmail.com"
 
+  linkedin         : "ashishkulkarnii"  # Username
+  medium           : "https://ashishkulkarnii.medium.com"  # URL
+  github           : "ashishkulkarnii"
+  orcid            : "http://orcid.org/0009-0003-8339-9992"
+  googlescholar    : "https://scholar.google.com/citations?user=JZjMEuQAAAAJ"
+
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=JZjMEuQAAAAJ"
+  # googlescholar    : "https://scholar.google.com/citations?user=JZjMEuQAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/0009-0003-8339-9992"
+  # orcid            : "http://orcid.org/0009-0003-8339-9992"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
@@ -44,7 +50,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "ashishkulkarnii"
+  # github           : "ashishkulkarnii"
   kaggle           : # Username
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -58,9 +64,9 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "ashishkulkarnii"  # Username
+  # linkedin         : "ashishkulkarnii"  # Username
   mastodon         : # URL
-  medium           : "https://ashishkulkarnii.medium.com"  # URL
+  # medium           : "https://ashishkulkarnii.medium.com"  # URL
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
