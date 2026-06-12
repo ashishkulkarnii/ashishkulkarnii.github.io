@@ -30,6 +30,8 @@ To teach a model via preference optimization, you must provide it with examples 
 
 <details><summary>Output</summary>
 
+Output:
+
     Requirement already satisfied: transformers in /usr/local/lib/python3.12/dist-packages (5.10.2)
     Requirement already satisfied: torch in /usr/local/lib/python3.12/dist-packages (2.11.0+cu128)
     Requirement already satisfied: pillow in /usr/local/lib/python3.12/dist-packages (11.3.0)
@@ -206,6 +208,8 @@ processor, model = load_model()
 ```
 
 <details><summary>Output</summary>
+
+Output:
 
     Loading base model from llava-hf/llava-1.5-7b-hf...
 
@@ -467,6 +471,8 @@ Of the 100K+ images, we randomly sampled from 4,999 of them for this evaluation.
 
 <details><summary>Code</summary>
 
+Code:
+
 ```python
 
 CSV_PATH = "/content/drive/MyDrive/ee243/nih-chest-xray/Data_Entry_2017.csv"
@@ -533,6 +539,8 @@ N = len(sample_df)
 
 <details><summary>Code</summary>
 
+Code:
+
 ```python
 plt.figure(figsize=(20, 20))
 
@@ -556,6 +564,7 @@ for i, row in sample_df.iterrows():
 plt.tight_layout()
 plt.show()
 ```
+
 </details>
 
     
@@ -563,6 +572,8 @@ plt.show()
     
 
 <details><summary>Code</summary>
+
+Code:
 
 ```python
 # ------------------------------------------------------------
@@ -834,6 +845,8 @@ Since the string-matching based evaluation likely missed out on some matches, I 
 
 <details><summary>Code</summary>
 
+Code:
+
 ```python
 df = pd.read_csv("mmedpo-eval-results.csv")
 
@@ -861,6 +874,8 @@ Coupled with the fact that one of the datasets that MMedPO was trained on was [M
 
 
 <details><summary>Code</summary>
+
+Code:
 
 ```python
 df.drop(columns=['neutral_true_hits',	'truth_true_hits', 'gaslight_false_hits',	'gaslight_rejected'])
