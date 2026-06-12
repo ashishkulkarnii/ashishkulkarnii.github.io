@@ -6,8 +6,6 @@ redirect_from:
   - /ee243-final-project
 ---
 
-# EE243 Final Project
-
 ```
 Ashish Kulkarni - akulk050@ucr.edu
 Deepthi Dayanand - ddaya003@ucr.edu
@@ -554,7 +552,7 @@ plt.show()
 
 
     
-![png](ee243_project_files/ee243_project_10_0.png)
+![](images/ee243_project_10_0.png)
     
 
 
