@@ -11,8 +11,6 @@ Ashish Kulkarni - akulk050@ucr.edu
 Deepthi Dayanand - ddaya003@ucr.edu
 ```
 
-### MMedPO
-
 **MMedPO** (Multimodal Medical Preference Optimization) is an advanced alignment framework introduced to fix a major flaw in medical AI: *modality misalignment*. Often, medical vision-language models rely too heavily on textual knowledge and ignore the actual medical image, leading to hallucinations where the AI confidently describes diseases that aren't actually pictured. To solve this, MMedPO acts as a specialized training layer that teaches the AI to properly balance visual evidence with medical text.
 
 Its lineage and architecture rely heavily on two foundational technologies: **LLaVA-Med** and **MedKLIP**.
