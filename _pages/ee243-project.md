@@ -29,7 +29,9 @@ To teach a model via preference optimization, you must provide it with examples 
 ```python
 !pip install transformers torch pillow accelerate peft bitsandbytes
 ```
+
 <details><summary>Output</summary>
+
     Requirement already satisfied: transformers in /usr/local/lib/python3.12/dist-packages (5.10.2)
     Requirement already satisfied: torch in /usr/local/lib/python3.12/dist-packages (2.11.0+cu128)
     Requirement already satisfied: pillow in /usr/local/lib/python3.12/dist-packages (11.3.0)
@@ -93,6 +95,7 @@ To teach a model via preference optimization, you must provide it with examples 
     [2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m60.7/60.7 MB[0m [31m20.4 MB/s[0m eta [36m0:00:00[0m
     [?25hInstalling collected packages: bitsandbytes
     Successfully installed bitsandbytes-0.49.2
+
 </details>
 
 
@@ -203,7 +206,9 @@ def run_inference(processor, model, image_path, prompt_text):
 processor, model = load_model()
 
 ```
+
 <details><summary>Output</summary>
+
     Loading base model from llava-hf/llava-1.5-7b-hf...
 
 
@@ -462,6 +467,7 @@ The authors claim the disease labels are over 90% accurate.
 
 Of the 100K+ images, we randomly sampled from 4,999 of them for this evaluation.
 
+<details><summary>Code</summary>
 
 ```python
 
@@ -519,12 +525,15 @@ print("Sampled images for evaluation:", len(sample_df))
 N = len(sample_df)
 ```
 
+</details>
+
     Total NIH images in CSV: 112120
     Total actual image files found in IMAGE_DIR: 4999
     Total image files with labels available for sampling: 4999
     Sampled images for evaluation: 25
 
 
+<details><summary>Code</summary>
 
 ```python
 plt.figure(figsize=(20, 20))
@@ -549,13 +558,13 @@ for i, row in sample_df.iterrows():
 plt.tight_layout()
 plt.show()
 ```
-
+</details>
 
     
 ![](images/ee243_project_10_0.png)
     
 
-
+<details><summary>Code</summary>
 
 ```python
 # ------------------------------------------------------------
@@ -807,6 +816,8 @@ results_df.to_csv(
 print("\nSaved detailed outputs to:", OUTPUT_CSV)
 ```
 
+</details>
+
     
   0%|          | 0/25 [00:00<?, ?it/s][transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
     /usr/local/lib/python3.12/dist-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
@@ -829,6 +840,7 @@ print("\nSaved detailed outputs to:", OUTPUT_CSV)
 
 Since the string-matching based evaluation likely missed out on some matches, I went through the raw results myself. Here are the results of this "gaslighting" experiment.
 
+<details><summary>Code</summary>
 
 ```python
 df = pd.read_csv("mmedpo-eval-results.csv")
@@ -838,6 +850,7 @@ print("Accuracy of diagnosis with a ground-truth prompt:", df["Truth"].value_cou
 print("Accuracy of diagnosis with a gaslighting prompt:", df["Gaslight"].value_counts().get(True, 0) / len(df))
 print("Rate of gaslighting prompt being reinforced by MMedPO:", df["Gaslighting Reinforced"].value_counts()[True] / len(df))
 ```
+</details>
 
     Accuracy of diagnosis with a uninformative prompt: 0.4
     Accuracy of diagnosis with a ground-truth prompt: 0.56
@@ -855,11 +868,13 @@ These findings were quite strange, as one would assume if the model can be gasli
 Coupled with the fact that one of the datasets that MMedPO was trained on was [MIMIC-CXR](https://www.nature.com/articles/s41597-019-0322-0), which is a chest radiography dataset, these findings are surprsing.
 
 
+<details><summary>Code</summary>
+
 ```python
 df.drop(columns=['neutral_true_hits',	'truth_true_hits', 'gaslight_false_hits',	'gaslight_rejected'])
 
 ```
-
+</details>
 
 
 
