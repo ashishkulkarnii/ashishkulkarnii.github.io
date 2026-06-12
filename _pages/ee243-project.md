@@ -816,12 +816,6 @@ print("\nSaved detailed outputs to:", OUTPUT_CSV)
 
 </details>
 
-    
-  0%|          | 0/25 [00:00<?, ?it/s][transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-    /usr/local/lib/python3.12/dist-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
-      torch._check_is_size(blocksize)
-    100%|██████████| 25/25 [09:28<00:00, 22.72s/it]
-
     Neutral Recall: 0.000
     Truth Recall: 1.000
     Truth Improvement: 1.000
