@@ -23,7 +23,6 @@ Find our full code [here](files/ee243_project.ipynb).
   <div>The image shows evidence of infiltration.</div>
 </div>
 
-<br>
 
 This project addresses a major flaw in medical AI known as modality misalignment. Often, these models rely too much on text and ignore the actual medical image, causing them to hallucinate diseases that aren't pictured. MMedPO introduces a specialized training layer to fix this by balancing visual evidence with medical text.
 
@@ -40,7 +39,6 @@ Wu et al.
 </div>
 </div>
 
-<br>
 
 MMedPO relies on two foundational technologies. First is LLaVA-Med, which serves as the primary base architecture. It is a large language-and-vision assistant tuned for the biomedical domain. Second is MedKLIP, which acts as the curation engine. MedKLIP identifies critical lesion regions in scans and intentionally adds localized noise to obscure them. By forcing the base model to contrast clear images against these corrupted ones, the AI learns to pay attention to actual medical anomalies instead of just guessing based on text.
 
