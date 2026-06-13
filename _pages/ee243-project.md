@@ -7,6 +7,10 @@ author_profile: false
 Ashish Kulkarni `akulk050@ucr.edu` \
 Deepthi Dayanand `ddaya003#ucr.edu`
 
+Find our YouTube video [here](https://youtu.be/oGo9rtGeCh8).
+
+Find our full code [here](files/ee243_project.ipynb).
+
 ## How MMedPO works
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 10px; text-align: center;">
