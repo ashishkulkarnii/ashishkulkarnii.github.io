@@ -15,7 +15,7 @@ Find our full code [here](files/ee243_project.ipynb).
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 10px; text-align: center;">
   <div>
-    <img src="images/ee243_infiltration.png" width="300"></img>
+    <img src="images/ee243_infiltration.png" width="300">
   </div>
   <div>+</div>
   <div>What is the primary clinical finding in this radiograph?</div>
