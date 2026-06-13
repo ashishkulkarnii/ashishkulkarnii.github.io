@@ -6,6 +6,8 @@ redirect_from:
   - /ee243-final-project
 ---
 
+Download the full code [here](files/ee243_project.ipynb).
+
 ```
 Ashish Kulkarni - akulk050@ucr.edu
 Deepthi Dayanand - ddaya003@ucr.edu
