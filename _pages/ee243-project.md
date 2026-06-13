@@ -5,7 +5,7 @@ author_profile: false
 ---
 
 Ashish Kulkarni `akulk050@ucr.edu` \
-Deepthi Dayanand `ddaya003#ucr.edu`
+Deepthi Dayanand `ddaya003@ucr.edu`
 
 Find our YouTube video [here](https://youtu.be/oGo9rtGeCh8).
 
