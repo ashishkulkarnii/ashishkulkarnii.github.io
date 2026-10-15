@@ -1,0 +1,7 @@
+# Short paths for QR codes and other links.
+# Add one entry per path segment. Destinations must be complete URLs.
+# Example:
+#  example-page: https://example.com/page  (replace "example-page" with a single path segment)
+#  so ashishkulkarnii.github.io/redirect/example-page redirects to https://example.com/page
+
+"": "https://ashishkulkarnii.github.io/"

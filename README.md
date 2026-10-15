@@ -35,6 +35,16 @@ When you are initially working your website, it is very useful to be able to pre
 1. Run `bundle config set --local path 'vendor/bundle'` and then `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
 1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change. If you get the error `You have already activated X v1, but your Gemfile requires X v2.`, run `gem update X --user-install` and try `bundle exec jekyll serve -l -H localhost`.
 
+## Short redirects
+
+Add redirects in [`_data/redirect.yml`](_data/redirect.yml), using the path segment as the key and a complete destination URL as the value:
+
+```yaml
+example-page: https://example.com/page
+```
+
+That entry sends `https://ashishkulkarnii.github.io/redirect/apha` to the destination. GitHub Pages serves the custom `404.html` for unknown paths, and that page checks this map in the browser. Redirect changes take effect after the site is rebuilt and deployed.
+
 ## Using Docker
 
 Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
