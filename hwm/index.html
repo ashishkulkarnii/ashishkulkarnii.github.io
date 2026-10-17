@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="./">
+  <title>Highlander Well-being Monitor · Static snapshot</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="topics.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="static.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand" aria-label="Highlander Well-being Monitor">
+      <a class="brand-logo-link" href="https://hwsresearch.ucr.edu/" target="_blank" rel="noopener noreferrer" aria-label="Visit HWS Research at UC Riverside">
+        <img class="brand-logo" src="https://studentwellness.ucr.edu/sites/default/files/ucr-health-well-being-and-safety-logo.jpg" alt="UC Riverside Health, Well-being & Safety">
+      </a>
+      <a class="ucr-logo-link" href="https://www.ucr.edu/" target="_blank" rel="noopener noreferrer" aria-label="Visit UC Riverside">
+        <img class="ucr-logo" src="assets/ucr-monogram.png" alt="UCR monogram">
+      </a>
+      <span class="brand-divider" aria-hidden="true"></span>
+      <span><strong>Highlander</strong><small>Well-being Monitor</small></span>
+    </div>
+    <div class="topbar-actions">
+      <span class="live-indicator"><i></i> Read-only snapshot</span>
+      <button class="button button-light" id="refreshButton" type="button" disabled>Refresh view</button>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="intro-row">
+      <div>
+        <h1>Community signals</h1>
+        <p class="intro-copy">A private, local view of public Reddit posts, emerging themes, and campus locations.</p>
+      </div>
+      <div class="updated-block"><span class="status-dot"></span><span id="lastUpdated">Loading local data…</span></div>
+    </section>
+
+    <div class="job-banner hidden" id="jobBanner" role="status">
+      <div class="job-copy"><strong id="jobTitle">Background job</strong><span id="jobMessage"></span></div>
+      <div class="job-progress"><div class="progress-track"><span id="jobProgress"></span></div><small id="jobProgressText"></small></div>
+    </div>
+    <div class="error-banner hidden" id="errorBanner" role="alert"></div>
+
+    <nav class="tabs" aria-label="Dashboard sections">
+      <button class="tab active" data-tab="overview"><span class="tab-number">01</span>Overview</button>
+      <button class="tab" data-tab="posts"><span class="tab-number">02</span>Posts &amp; classification</button>
+      <button class="tab" data-tab="map"><span class="tab-number">03</span>Campus map</button>
+      <button class="tab" data-tab="report"><span class="tab-number">04</span>Research report</button>
+    </nav>
+
+    <section class="tab-panel active" id="overviewPanel">
+      <div class="section-heading"><div><div class="eyebrow">AT A GLANCE</div><h2>What the community is talking about</h2><p class="section-copy" id="topicStatus">Local topics not refreshed yet.</p></div><div class="action-row"><span class="subtle" id="overviewScope"></span><button class="button button-outline" id="topicRefreshButton" type="button" disabled>Refresh local topics</button></div></div>
+      <div class="metric-grid">
+        <article class="metric-card"><span class="metric-label">Posts in database</span><strong id="metricPosts">—</strong><span class="metric-foot">Across all scraped communities</span></article>
+        <article class="metric-card"><span class="metric-label">Average sentiment</span><strong id="metricSentiment">—</strong><span class="metric-foot">VADER compound score · −1 to +1</span></article>
+        <article class="metric-card"><span class="metric-label">Mapped posts</span><strong id="metricMapped">—</strong><span class="metric-foot">Posts with an exported campus pin</span></article>
+        <article class="metric-card"><span class="metric-label">HWS classified</span><strong id="metricClassified">—</strong><span class="metric-foot" id="metricClassifiedFoot">—</span></article>
+      </div>
+      <div class="chart-grid">
+        <article class="chart-card wide"><div class="chart-heading"><div><h3>Posting and sentiment trends</h3><p>VADER sentiment uses post text and up to five top-scored comments, like the clustering notebook. Select a period to browse its posts.</p></div><span class="chart-key"><i class="key-blue"></i> Posts <i class="key-gold"></i> Sentiment</span></div><div class="chart-wrap chart-large"><canvas id="trendChart"></canvas></div></article>
+        <article class="chart-card"><div class="chart-heading"><div><h3>Sentiment mix</h3><p>Select a segment to browse matching posts</p></div></div><div class="chart-wrap"><canvas id="sentimentChart"></canvas></div></article>
+        <article class="chart-card"><div class="chart-heading"><div><h3>Theme mix</h3><p>Gemini-consolidated themes over local UMAP/HDBSCAN clusters. Select a theme to browse its posts.</p></div></div><div class="chart-wrap"><canvas id="themeChart"></canvas></div></article>
+        <article class="chart-card"><div class="chart-heading"><div><h3>HWS divisions</h3><p>Select a division to browse matching posts</p></div></div><div class="chart-wrap"><canvas id="divisionChart"></canvas></div><p class="chart-note" id="divisionNote"></p></article>
+      </div>
+      <p class="method-note"><strong>How to read these:</strong> sentiment and themes describe aggregate language patterns; they are not clinical assessments or verified incident findings. Local topic refresh uses the notebook's text, embedding, UMAP, HDBSCAN, and TF-IDF steps. Report generation asks Gemini to merge related saved clusters; it does not rerun UMAP or HDBSCAN. Embeddings are cached by post text; only new or changed text is re-embedded.</p>
+    </section>
+
+    <section class="tab-panel" id="postsPanel">
+      <div class="section-heading posts-heading"><div><div class="eyebrow">POST EXPLORER</div><h2>Browse individual posts</h2><p class="section-copy">Author names are not loaded or shown. Expand a row for the latest saved post text and source link.</p></div></div>
+      <div class="posts-tools-grid">
+      <section class="scrape-config panel" aria-label="Subreddits to scrape">
+        <div class="scrape-config-heading"><div><span class="field-label">SUBREDDITS FOR FUTURE SCRAPES</span><p class="subtle">Changes here only affect posts fetched by the next scrape. Existing database posts remain available.</p></div><button class="button button-primary" id="scrapeButton" type="button" disabled>↻ Re-scrape listed subreddits</button></div>
+        <form class="add-source" id="addSourceForm">
+          <label class="field-label" for="newSource">Add a subreddit to scrape</label>
+          <div class="inline-control"><input id="newSource" name="subreddit" placeholder="e.g. r/ucr" autocomplete="off" disabled><button class="button button-outline" type="submit" disabled>Add</button></div>
+        </form>
+        <div id="sourceList" class="source-list" aria-live="polite"></div>
+      </section>
+      <div class="classification-strip panel">
+        <div class="coverage-summary"><span class="eyebrow">HWS CLASSIFICATION COVERAGE</span><div class="coverage-line"><strong id="coverageCount">—</strong><span id="coverageText">classified posts in the database</span></div><button class="button button-outline" id="classifyButton" type="button" disabled>Classify unclassified posts</button></div>
+        <div class="coverage-progress"><div class="progress-track"><span id="coverageProgress"></span></div><small id="coveragePercent">—</small></div>
+        <div class="classify-help">Gemini classifies a post into <b>zero, one, or several</b> HWS divisions. Completed rows checkpoint to disk; if a run stops, use Resume to continue only posts without saved results.</div>
+      </div>
+      </div>
+      <div class="post-filters panel">
+        <div class="search-wrap"><label class="field-label" for="postSearch">Search title and text</label><input id="postSearch" type="search" placeholder="Search posts…"></div>
+        <div><label class="field-label" for="classificationFilter">Classification</label><select id="classificationFilter" class="select-control"><option value="">All posts</option><option value="unclassified">Not classified</option><option value="classified">Classified</option></select></div>
+        <div><label class="field-label" for="divisionFilter">HWS division</label><select id="divisionFilter" class="select-control"><option value="">All divisions</option></select></div>
+        <div><label class="field-label" for="themeFilter">Theme</label><select id="themeFilter" class="select-control"><option value="">All themes</option></select></div>
+        <div><label class="field-label" for="sentimentFilter">Sentiment</label><select id="sentimentFilter" class="select-control"><option value="">All sentiments</option><option value="Negative">Negative</option><option value="Neutral">Neutral</option><option value="Positive">Positive</option></select></div>
+        <div><label class="field-label" for="periodFilter">Posting period</label><select id="periodFilter" class="select-control"><option value="">All periods</option></select></div>
+        <label class="check-control"><input type="checkbox" id="mappedOnly"><span>Mapped posts only</span></label>
+      </div>
+      <div class="list-meta"><span id="postCount">Loading posts…</span><span>Newest first</span></div>
+      <div id="postList" class="post-list" aria-live="polite"></div>
+      <div class="load-more-wrap"><button class="button button-outline hidden" id="loadMoreButton" type="button">Load more posts</button></div>
+    </section>
+
+    <section class="tab-panel map-panel" id="mapPanel">
+      <div class="section-heading"><div><div class="eyebrow">SPATIAL VIEW</div><h2>Campus location flags</h2><p class="section-copy" id="mapSelection">Choose a mapped post to center and highlight its pin.</p></div><button class="button button-outline" id="reloadMapButton" type="button" disabled>Refresh map data</button></div>
+      <div class="map-frame-wrap"><iframe id="mapFrame" title="UCR community location map" src="map/portal-map.html"></iframe></div>
+      <p class="map-footnote">Pins show recognized locations from the local GIS registry. The post popup shows its latest saved text and links to the Reddit source.</p>
+    </section>
+    <section class="tab-panel report-panel" id="reportPanel">
+      <div class="section-heading"><div><div class="eyebrow">GENERATED ANALYSIS</div><h2>Community listening report</h2><p class="section-copy">Generate a long-form report from the local database, with Gemini-consolidated themes, dashboard charts, and anonymous post excerpts. Gemini receives aggregate cluster summaries and example post titles; report excerpts are assembled locally.</p></div><div class="action-row"><button class="button button-primary" id="reportGenerateButton" type="button" disabled>Generate report</button><a class="button button-outline hidden" id="reportDownloadButton" href="report/latest.html" download="ucr-community-listening-report.html">Download HTML</a><button class="button button-outline hidden" id="reportPdfButton" type="button">Download PDF</button></div></div>
+      <p class="subtle" id="reportStatus" role="status">The report is generated when you request it. Save as PDF from the report's print control.</p>
+      <div class="report-frame-wrap hidden" id="reportFrameWrap"><iframe id="reportFrame" title="Generated UCR community listening report"></iframe></div>
+    </section>
+    <footer class="footer"><span>Local dashboard · Post data stays in the configured local database</span></footer>
+  </main>
+  <script>window.HWM_STATIC_MODE = true; window.HWM_STATIC_BASE = "./";</script>
+  <script src="app.js"></script>
+</body>
+</html>

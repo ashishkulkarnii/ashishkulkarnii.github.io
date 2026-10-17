@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UCR Community Location Concerns</title>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.34/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.34/"></script>
+  <style>
+    html, body, #viewDiv { height: 100%; width: 100%; margin: 0; }
+    #viewDiv .esri-ui-top-left { flex-flow: row nowrap; align-items: flex-start; gap: .5rem; }
+    #viewDiv .esri-ui-top-left .esri-component { margin: 0; }
+    #filters { background: #fff; border-radius: 4px; box-shadow: 0 1px 5px #0003;
+      display: flex; flex: 0 1 auto; flex-wrap: wrap; gap: .5rem .75rem; align-items: center;
+      padding: .55rem .65rem; max-width: min(800px, calc(100vw - 60px)); }
+    #filters label { font: 13px system-ui, sans-serif; display: flex; gap: .4rem; align-items: center; white-space: nowrap; }
+    #filters select { appearance: none; -webkit-appearance: none; padding: .35rem 2rem .35rem .5rem;
+      background-color: #fff; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='m1 1 5 5 5-5' fill='none' stroke='%23003DA5' stroke-width='1.7'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right .7rem center; background-size: 11px 7px; }
+    #attribution { background: #fff; padding: .35rem .55rem; font: 12px system-ui, sans-serif; }
+    @media (max-width: 700px) {
+      #viewDiv .esri-ui-top-left { gap: .35rem; }
+      #filters { max-width: calc(100vw - 58px); gap: .35rem .5rem; }
+      #filters label { font-size: 11px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="viewDiv"></div>
+  <script>
+    // Serves the local export from the same directory as this page. Start the
+    // local HTTP server using the command in gis/README.md; file:// won't work.
+    const LOCAL_GEOJSON_URL = new URL("map.geojson", window.location.href);
+    LOCAL_GEOJSON_URL.searchParams.set("v", Date.now().toString());
+    const CATEGORIES = [
+      { key: "general_location", label: "General location mention", color: "#2563eb" },
+      { key: "personal_safety", label: "Personal safety or suspicious activity", color: "#b91c1c" },
+      { key: "theft", label: "Theft or property crime", color: "#c2410c" },
+      { key: "facility_maintenance", label: "Building or facility problem", color: "#7e22ce" },
+      { key: "health_exposure", label: "Sanitation or environmental health", color: "#a16207" },
+      { key: "animal_traffic", label: "Animal or traffic hazard", color: "#be123c" },
+      { key: "housing_financial", label: "Housing cost or payment hardship", color: "#0369a1" },
+      { key: "wellbeing_stress", label: "Well-being or workload stress", color: "#9333ea" },
+      { key: "lost_found", label: "Lost or found property", color: "#64748b" },
+      { key: "campus_activity", label: "Campus activity or event", color: "#0891b2" },
+      { key: "housing_information", label: "Housing information or logistics", color: "#0f766e" },
+      { key: "hazard", label: "Other physical hazard", color: "#a16207" },
+      { key: "accessibility", label: "Accessibility concern", color: "#0369a1" },
+      { key: "other_safety", label: "Other safety concern", color: "#4b5563" }
+    ];
+
+    const requestedPostId = new URLSearchParams(window.location.search).get("post_id") || "";
+    const selectedPostId = /^[a-z0-9]+$/i.test(requestedPostId) ? requestedPostId : "";
+
+    require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Graphic"],
+      (Map, MapView, GeoJSONLayer, Graphic) => {
+        const layer = new GeoJSONLayer({
+          url: LOCAL_GEOJSON_URL.href,
+          copyright: "UCR GIS Week local post map",
+          fields: [
+            { name: "post_id", type: "string" },
+            { name: "category_key", type: "string" },
+            { name: "category", type: "string" },
+            { name: "is_concern", type: "integer" },
+            { name: "place", type: "string" },
+            { name: "occurred_at", type: "date" },
+            { name: "selftext", type: "string" },
+            { name: "reddit_url", type: "string" },
+            { name: "coordinate_source", type: "string" },
+            { name: "coordinate_source_url", type: "string" }
+          ],
+          definitionExpression: "1=1",
+          renderer: {
+            type: "unique-value",
+            field: "category_key",
+            defaultSymbol: { type: "simple-marker", color: "#4b5563", size: 9, outline: { color: "white", width: 1 } },
+            uniqueValueInfos: CATEGORIES.map((category) => ({
+              value: category.key,
+              label: category.label,
+              symbol: { type: "simple-marker", color: category.color, size: 10,
+                outline: { color: "white", width: 1 } }
+            }))
+          },
+          popupTemplate: {
+            title: "{category} near {place}",
+            // The custom content function needs these attributes explicitly
+            // requested; otherwise GeoJSONLayer may omit them from the popup event.
+            outFields: ["post_id", "category", "is_concern", "place", "occurred_at", "selftext", "reddit_url", "coordinate_source", "coordinate_source_url"],
+            content: (event) => {
+              const attrs = event.graphic.attributes;
+              const content = document.createElement("div");
+              const postText = document.createElement("p");
+              postText.textContent = attrs.selftext || "No post text (selftext is empty).";
+              content.appendChild(postText);
+              const date = document.createElement("p");
+              date.textContent = attrs.occurred_at ? new Date(attrs.occurred_at).toLocaleString() : "Date unavailable";
+              content.appendChild(date);
+              const url = attrs.reddit_url || "";
+              if (/^https:\/\/(www\.)?reddit\.com\//i.test(url)) {
+                const link = document.createElement("a");
+                link.href = url;
+                link.target = "_blank";
+                link.rel = "noopener noreferrer";
+                link.textContent = "Open source Reddit post";
+                content.appendChild(link);
+              }
+              const sourceUrl = attrs.coordinate_source_url || "";
+              if (/^https:\/\/(www\.)?(openstreetmap\.org|mapcarta\.com|documents\.ucr\.edu|pdc\.ucr\.edu)\//i.test(sourceUrl)) {
+                const source = document.createElement("p");
+                const sourceLink = document.createElement("a");
+                sourceLink.href = sourceUrl;
+                sourceLink.target = "_blank";
+                sourceLink.rel = "noopener noreferrer";
+                sourceLink.textContent = `Location source: ${attrs.coordinate_source || "OpenStreetMap"}`;
+                source.appendChild(sourceLink);
+                content.appendChild(source);
+              }
+              return content;
+            }
+          }
+        });
+
+        const view = new MapView({
+          container: "viewDiv",
+          map: new Map({ basemap: "streets-vector", layers: [layer] }),
+          center: [-117.328, 33.973],
+          zoom: 15
+        });
+
+        const controls = document.createElement("div");
+        controls.id = "filters";
+        controls.innerHTML = `
+          <label>Category <select id="categoryFilter">
+            <option value="">All categories</option>
+            ${CATEGORIES.map((category) => `<option value="${category.key}">${category.label}</option>`).join("")}
+          </select></label>
+          <label>Type <select id="concernFilter">
+            <option value="">All location posts</option>
+            <option value="1">Concern mentions</option>
+            <option value="0">General location mentions</option>
+          </select></label>
+          <label><input type="checkbox" id="hideGeneralFilter"> Hide general location mentions</label>
+          <label>Recency <select id="recencyFilter">
+            <option value="0">All dates</option>
+            <option value="1">Last 24 hours</option>
+            <option value="7">Last 7 days</option>
+            <option value="30">Last 30 days</option>
+            <option value="90">Last 90 days</option>
+          </select></label>`;
+        view.ui.add(controls, { position: "top-left", index: 1 });
+        const attribution = document.createElement("div");
+        attribution.id = "attribution";
+        attribution.innerHTML = 'Location search data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a> · Search via <a href="https://nominatim.org/" target="_blank" rel="noopener noreferrer">Nominatim</a>';
+        view.ui.add(attribution, "bottom-right");
+
+        const applyFilters = () => {
+          const category = controls.querySelector("#categoryFilter").value;
+          const concern = controls.querySelector("#concernFilter").value;
+          const hideGeneral = controls.querySelector("#hideGeneralFilter").checked;
+          const days = Number(controls.querySelector("#recencyFilter").value);
+          const parts = [];
+          if (category) parts.push(`category_key = '${category}'`);
+          if (concern !== "") parts.push(`is_concern = ${Number(concern)}`);
+          if (hideGeneral) parts.push("category_key <> 'general_location'");
+          if (days > 0) {
+            const cutoff = new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString();
+            parts.push(`occurred_at >= TIMESTAMP '${cutoff.replace("T", " ").replace("Z", "")}'`);
+          }
+          layer.definitionExpression = parts.length ? parts.join(" AND ") : "1=1";
+        };
+        controls.addEventListener("change", applyFilters);
+        applyFilters();
+
+        const highlightRequestedPost = async () => {
+          if (!selectedPostId) return;
+          await layer.when();
+          const query = layer.createQuery();
+          query.where = `post_id = '${selectedPostId.replace(/'/g, "''")}'`;
+          query.returnGeometry = true;
+          query.outFields = ["post_id", "place", "category"];
+          const result = await layer.queryFeatures(query);
+          if (!result.features.length) {
+            view.popup.open({ title: "No mapped pin found", content: "This post has no exported, approved map location yet." });
+            return;
+          }
+          const features = result.features;
+          view.graphics.removeAll();
+          for (const feature of features) {
+            view.graphics.add(new Graphic({
+              geometry: feature.geometry,
+              symbol: { type: "simple-marker", style: "circle", size: 25,
+                color: [255, 255, 255, 0], outline: { color: "#f0a51b", width: 3 } }
+            }));
+          }
+          if (features.length === 1) await view.goTo({ target: features[0].geometry, zoom: 18 });
+          else await view.goTo(features.map((feature) => feature.geometry));
+          view.popup.open({ features, location: features[0].geometry });
+        };
+        view.when(() => {
+          layer.when().then(highlightRequestedPost).catch((error) => {
+            view.popup.open({ title: "Could not load local map data", content:
+              `Serve the gis folder over localhost and open portal-map.html through that server. Data URL: ${LOCAL_GEOJSON_URL}. ${error.message || error}` });
+          });
+        });
+      });
+  </script>
+</body>
+</html>
