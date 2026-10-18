@@ -36,6 +36,8 @@ body{font-size:16.5px}
 .updated-block{font-size:13.2px}
 .toolbar select[multiple]{font-size:13.2px}
 .button{font-size:13.2px}.tab{font-size:14.3px}.tab-number{font-size:11px}
+.action-row a.button{text-decoration:none}
+.action-row a.button:hover{text-decoration:none}
 .section-heading h2{font-size:25.3px}.section-copy,.subtle{font-size:13.2px}
 .metric-label{font-size:12.1px}.metric-card strong{font-size:28.6px}.metric-foot{font-size:11px}
 .chart-heading h3{font-size:14.3px}.chart-heading p,.chart-key,.chart-note{font-size:11px}
