@@ -20,6 +20,8 @@
 .post-filters{display:grid;grid-template-columns:minmax(0,1fr);align-items:end}
 .post-filters>div{min-width:0}
 .post-filters input,.post-filters select{width:100%;min-width:0}
+.post-filters>.post-filter-controls{display:contents}
+.post-filter-controls>div{display:flex;flex-direction:column;gap:6px;min-width:0}
 @media(min-width:1000px){.post-filters{grid-template-columns:minmax(170px,1.5fr) repeat(5,minmax(90px,1fr)) auto;gap:9px;padding-inline:12px}.post-filters .search-wrap{grid-column:auto}.post-filters .check-control{align-self:end;padding-bottom:10px}}
 @media(max-width:650px){.post-filters{grid-template-columns:1fr 1fr}.post-filters .search-wrap{grid-column:span 2}.post-filters>div:last-of-type{grid-column:auto}.check-control{grid-column:span 2}}
 .post-image-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:10px;margin:10px 0 14px}
@@ -69,7 +71,7 @@ body{font-size:16.5px}
 .tab-icon{display:none}
 .tab-label-short{display:none}
 .filter-toggle{display:none}
-.post-filter-controls{display:contents}
+.post-filters>.post-filter-controls{display:contents}
 @media(max-width:650px){
   body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
   .tabs{position:fixed;z-index:50;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;margin:0;padding:6px 8px calc(6px + env(safe-area-inset-bottom));border:0;border-top:1px solid #dfe5ed;background:rgba(255,255,255,.97);box-shadow:0 -5px 20px rgba(23,43,69,.10);backdrop-filter:blur(12px)}
@@ -92,8 +94,8 @@ body{font-size:16.5px}
   .filter-chevron{margin-left:auto;font-size:19px;line-height:1;transition:transform .15s ease}
   .filter-toggle[aria-expanded="true"] .filter-chevron{transform:rotate(180deg)}
   .filter-count{display:inline-grid;min-width:22px;height:22px;place-items:center;padding:0 6px;border-radius:999px;background:#eaf0f9;color:var(--teal-dark);font-size:11px}
-  .post-filter-controls{display:none;grid-template-columns:minmax(0,1fr);gap:10px;padding-top:2px}
-  .post-filter-controls.is-open{display:grid}
+  .post-filters>.post-filter-controls{display:none;grid-template-columns:minmax(0,1fr);gap:10px;padding-top:2px}
+  .post-filters>.post-filter-controls.is-open{display:grid}
   .post-filter-controls>div{min-width:0}
   .post-filter-controls select{width:100%;min-height:44px}
   .post-filter-controls .check-control{grid-column:1;justify-self:start;min-height:44px;padding:8px 2px}
