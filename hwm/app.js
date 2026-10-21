@@ -46,7 +46,8 @@
       if (q) posts = posts.filter(post => `${post.title || ""} ${post.latest_selftext || ""}`.toLocaleLowerCase().includes(q));
       if (classification) posts = posts.filter(post => classification === "classified"
         ? post.classification_status === "classified" : post.classification_status !== "classified");
-      if (division) posts = posts.filter(post => (post.classifications || []).some(hit => hit.key === division));
+      if (division === "any") posts = posts.filter(post => (post.classifications || []).length > 0);
+      else if (division) posts = posts.filter(post => (post.classifications || []).some(hit => hit.key === division));
       if (theme) posts = posts.filter(post => post.theme_name === theme);
       if (sentiment) posts = posts.filter(post => post.sentiment <= -0.05 ? sentiment === "Negative"
         : post.sentiment >= 0.05 ? sentiment === "Positive" : sentiment === "Neutral");
@@ -222,7 +223,7 @@
   function setPostFilters(filters) {
     $("#postSearch").value = "";
     $("#classificationFilter").value = "";
-    $("#divisionFilter").value = "";
+    $("#divisionFilter").value = "any";
     $("#themeFilter").value = "";
     $("#sentimentFilter").value = "";
     $("#periodFilter").value = "";
@@ -571,12 +572,20 @@
       ["ucpd", "Police & Campus Safety"], ["the_well", "The Well"],
     ];
     const select = $("#divisionFilter");
+    const current = select.value;
+    if (!select.querySelector('option[value="any"]')) {
+      const any = document.createElement("option");
+      any.value = "any";
+      any.textContent = "Any division";
+      select.insertBefore(any, select.firstChild);
+    }
     divisionList.forEach(([key, name]) => {
       const option = document.createElement("option");
       option.value = key;
       option.textContent = name;
       select.appendChild(option);
     });
+    select.value = current || "any";
   }
 
   async function initialize() {
