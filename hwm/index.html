@@ -44,10 +44,10 @@
     <div class="error-banner hidden" id="errorBanner" role="alert"></div>
 
     <nav class="tabs" aria-label="Dashboard sections">
-      <button class="tab active" data-tab="overview"><span class="tab-number">01</span>Overview</button>
-      <button class="tab" data-tab="posts"><span class="tab-number">02</span>Posts &amp; classification</button>
-      <button class="tab" data-tab="map"><span class="tab-number">03</span>Campus map</button>
-      <button class="tab" data-tab="report"><span class="tab-number">04</span>Research report</button>
+      <button class="tab active" data-tab="overview" aria-label="Overview" aria-current="page"><svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="5" rx="1.5"/><rect x="13" y="10" width="8" height="11" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/></svg><span class="tab-number">01</span><span class="tab-label">Overview</span></button>
+      <button class="tab" data-tab="posts" aria-label="Posts and classification"><svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r=".8"/><circle cx="4" cy="12" r=".8"/><circle cx="4" cy="18" r=".8"/></svg><span class="tab-number">02</span><span class="tab-label"><span class="tab-label-full">Posts &amp; classification</span><span class="tab-label-short">Posts</span></span></button>
+      <button class="tab" data-tab="map" aria-label="Campus map"><svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span class="tab-number">03</span><span class="tab-label"><span class="tab-label-full">Campus map</span><span class="tab-label-short">Map</span></span></button>
+      <button class="tab" data-tab="report" aria-label="Research report"><svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg><span class="tab-number">04</span><span class="tab-label"><span class="tab-label-full">Research report</span><span class="tab-label-short">Report</span></span></button>
     </nav>
 
     <section class="tab-panel active" id="overviewPanel">
@@ -86,12 +86,15 @@
       </div>
       <div class="post-filters panel">
         <div class="search-wrap"><label class="field-label" for="postSearch">Search title and text</label><input id="postSearch" type="search" placeholder="Search posts…"></div>
+        <button class="filter-toggle" id="filterToggle" type="button" aria-expanded="false" aria-controls="postFilterControls"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10m-7 6h4"/><circle cx="9" cy="6" r="1.7"/><circle cx="15" cy="12" r="1.7"/><circle cx="12" cy="18" r="1.7"/></svg><span>Filters</span><span class="filter-count" id="activeFilterCount" hidden></span><span class="filter-chevron" aria-hidden="true">⌄</span></button>
+        <div class="post-filter-controls" id="postFilterControls">
         <div><label class="field-label" for="classificationFilter">Classification</label><select id="classificationFilter" class="select-control"><option value="">All posts</option><option value="unclassified">Not classified</option><option value="classified">Classified</option></select></div>
         <div><label class="field-label" for="divisionFilter">HWS division</label><select id="divisionFilter" class="select-control"><option value="">All divisions</option></select></div>
         <div><label class="field-label" for="themeFilter">Theme</label><select id="themeFilter" class="select-control"><option value="">All themes</option></select></div>
         <div><label class="field-label" for="sentimentFilter">Sentiment</label><select id="sentimentFilter" class="select-control"><option value="">All sentiments</option><option value="Negative">Negative</option><option value="Neutral">Neutral</option><option value="Positive">Positive</option></select></div>
         <div><label class="field-label" for="periodFilter">Posting period</label><select id="periodFilter" class="select-control"><option value="">All periods</option></select></div>
         <label class="check-control"><input type="checkbox" id="mappedOnly"><span>Mapped posts only</span></label>
+        </div>
       </div>
       <div class="list-meta"><span id="postCount">Loading posts…</span><span>Newest first</span></div>
       <div id="postList" class="post-list" aria-live="polite"></div>

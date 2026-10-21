@@ -231,8 +231,24 @@
     if (Object.hasOwn(filters, "theme")) $("#themeFilter").value = filters.theme;
     if (Object.hasOwn(filters, "sentiment")) $("#sentimentFilter").value = filters.sentiment;
     if (Object.hasOwn(filters, "period")) $("#periodFilter").value = filters.period;
+    updateActiveFilterCount();
     state.page = 0;
     activateTab("posts");
+  }
+
+  function updateActiveFilterCount() {
+    const count = [
+      $("#classificationFilter").value,
+      $("#divisionFilter").value,
+      $("#themeFilter").value,
+      $("#sentimentFilter").value,
+      $("#periodFilter").value,
+      $("#mappedOnly").checked,
+      $("#postSearch").value.trim(),
+    ].filter(Boolean).length;
+    const badge = $("#activeFilterCount");
+    badge.textContent = count ? String(count) : "";
+    badge.hidden = count === 0;
   }
 
   function fillSelect(select, labels, defaultLabel, selectedValue = "") {
@@ -431,8 +447,16 @@
   }
 
   function activateTab(name) {
-    document.querySelectorAll(".tab").forEach((tab) => tab.classList.toggle("active", tab.dataset.tab === name));
+    document.querySelectorAll(".tab").forEach((tab) => {
+      const active = tab.dataset.tab === name;
+      tab.classList.toggle("active", active);
+      if (active) tab.setAttribute("aria-current", "page");
+      else tab.removeAttribute("aria-current");
+    });
     document.querySelectorAll(".tab-panel").forEach((panel) => panel.classList.toggle("active", panel.id === `${name}Panel`));
+    if (window.matchMedia("(max-width: 650px)").matches) {
+      document.querySelector(`#${name}Panel`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
     if (name === "map" && !state.selectedMapPost) reloadMap(null);
     if (name === "report") loadReportStatus();
     if (name === "posts") {
@@ -578,9 +602,24 @@
       showError(error.message);
     }
     document.querySelectorAll(".tab").forEach((tab) => tab.addEventListener("click", () => activateTab(tab.dataset.tab)));
-    $("#postSearch").addEventListener("input", debounce(() => { state.page = 0; loadPosts(false).catch((error) => showError(error.message)); }));
+    $("#filterToggle").addEventListener("click", () => {
+      const button = $("#filterToggle");
+      const expanded = button.getAttribute("aria-expanded") !== "true";
+      button.setAttribute("aria-expanded", String(expanded));
+      $("#postFilterControls").classList.toggle("is-open", expanded);
+    });
+    updateActiveFilterCount();
+    $("#postSearch").addEventListener("input", debounce(() => {
+      updateActiveFilterCount();
+      state.page = 0;
+      loadPosts(false).catch((error) => showError(error.message));
+    }));
     ["#classificationFilter", "#divisionFilter", "#themeFilter", "#sentimentFilter", "#periodFilter", "#mappedOnly"].forEach((selector) =>
-      $(selector).addEventListener("change", () => { state.page = 0; loadPosts(false).catch((error) => showError(error.message)); }));
+      $(selector).addEventListener("change", () => {
+        updateActiveFilterCount();
+        state.page = 0;
+        loadPosts(false).catch((error) => showError(error.message));
+      }));
     $("#loadMoreButton").addEventListener("click", () => {
       state.page += 1;
       loadPosts(true).catch((error) => showError(error.message));
