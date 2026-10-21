@@ -17,11 +17,10 @@
 
 /* Browse directly from chart selections. */
 .chart-wrap canvas{cursor:pointer}
-.post-filters{display:grid;grid-template-columns:minmax(190px,1.5fr) repeat(5,minmax(125px,1fr)) auto;align-items:end}
+.post-filters{display:grid;grid-template-columns:minmax(0,1fr);align-items:end}
 .post-filters>div{min-width:0}
 .post-filters input,.post-filters select{width:100%;min-width:0}
-@media(min-width:651px) and (max-width:1050px){.post-filters{grid-template-columns:minmax(145px,1.5fr) repeat(5,minmax(82px,1fr)) auto;gap:8px;padding-inline:10px}.post-filters .search-wrap{grid-column:auto}.post-filters .check-control{align-self:end;padding-bottom:10px}}
-@media(min-width:651px) and (max-width:800px){.post-filters{grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;padding-inline:12px}.post-filters .search-wrap{grid-column:span 2}.post-filters .check-control{grid-column:auto;padding-bottom:10px}}
+@media(min-width:1000px){.post-filters{grid-template-columns:minmax(170px,1.5fr) repeat(5,minmax(90px,1fr)) auto;gap:9px;padding-inline:12px}.post-filters .search-wrap{grid-column:auto}.post-filters .check-control{align-self:end;padding-bottom:10px}}
 @media(max-width:650px){.post-filters{grid-template-columns:1fr 1fr}.post-filters .search-wrap{grid-column:span 2}.post-filters>div:last-of-type{grid-column:auto}.check-control{grid-column:span 2}}
 .post-image-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:10px;margin:10px 0 14px}
 .post-image-gallery a{display:block;overflow:hidden;border:1px solid #dfe5ed;border-radius:9px;background:#f3f5f8}
@@ -93,11 +92,11 @@ body{font-size:16.5px}
   .filter-chevron{margin-left:auto;font-size:19px;line-height:1;transition:transform .15s ease}
   .filter-toggle[aria-expanded="true"] .filter-chevron{transform:rotate(180deg)}
   .filter-count{display:inline-grid;min-width:22px;height:22px;place-items:center;padding:0 6px;border-radius:999px;background:#eaf0f9;color:var(--teal-dark);font-size:11px}
-  .post-filter-controls{display:none;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding-top:2px}
+  .post-filter-controls{display:none;grid-template-columns:minmax(0,1fr);gap:10px;padding-top:2px}
   .post-filter-controls.is-open{display:grid}
   .post-filter-controls>div{min-width:0}
   .post-filter-controls select{width:100%;min-height:44px}
-  .post-filter-controls .check-control{grid-column:1/-1;justify-self:start;min-height:44px;padding:8px 2px}
+  .post-filter-controls .check-control{grid-column:1;justify-self:start;min-height:44px;padding:8px 2px}
   .post-filters .check-control input[type="checkbox"]{width:18px;min-width:18px;max-width:18px;height:18px;flex-basis:18px}
   .post-actions{flex-wrap:wrap}
   .mini-button{min-height:42px;padding-inline:12px}
