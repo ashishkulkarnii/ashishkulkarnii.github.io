@@ -1,6 +1,6 @@
 # Highlander Well-being Monitor static snapshot
 
-Generated 2026-10-21T00:29:27-07:00 from the local Reddit HWS database.
+Generated 2026-10-21T00:31:36-07:00 from the local Reddit HWS database.
 
 This read-only page includes post text, public Reddit permalinks, local themes and HWS labels, image links, and GIS location features. Reddit usernames are excluded. Refresh, scrape, classification, topic refresh, subreddit editing, and report generation are disabled.
 
