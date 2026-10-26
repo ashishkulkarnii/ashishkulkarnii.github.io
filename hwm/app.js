@@ -119,6 +119,15 @@
   async function loadOverview() {
     const data = await api(`/api/overview?${queryString()}`);
     $("#metricPosts").textContent = Number(data.total_posts).toLocaleString();
+    const communities = (data.subreddit_labels || []).map((name) => `r/${String(name).replace(/^r\//i, "")}`);
+    const visibleCommunities = communities.slice(0, 3);
+    const communityText = communities.length > 3
+      ? `${visibleCommunities.join(", ")}, …`
+      : visibleCommunities.join(", ");
+    $("#metricPostsFoot").textContent = communities.length > 1
+      ? `Communities: ${communityText}`
+      : communities.length === 1 ? `Community: ${communityText}` : "No communities in this dataset";
+    $("#metricPostsFoot").title = communities.join(", ");
     $("#metricSentiment").textContent = Number(data.average_sentiment).toFixed(2);
     $("#metricMapped").textContent = Number(data.location_posts).toLocaleString();
     $("#metricClassified").textContent = Number(data.classified_posts).toLocaleString();
