@@ -9,7 +9,7 @@ redirect_from:
 
 Hi, I'm Ashish Kulkarni!
 I'm currently Computer Science master's student at *University of California, Riverside*.
-I previously graduated from *PES University* with a bachelor's in Computer Science in 2024 and worked at [Nasdaq](https://www.nasdaq.com/) for over 2 years.
+I previously graduated from *PES University* with a bachelor's in Computer Science in 2024 and worked at *Nasdaq* for over 2 years.
 This site is a platform for me to showcase some of the work I've accumulated over the past few years: projects, articles, and more.
 Use the tabs above, and scroll around to see some of my work!
 
@@ -37,13 +37,13 @@ You can read more about this project [here](/projects/glaucoma-detection), or re
 By the time I reached my 6th semester, generative AI was all the rage.
 [ChatGPT](https://chatgpt.com) had become a household name, and new generative models were being released seemingly every single day.
 My friends and I were very interested in image and video generation models, and decided to pursue researching this as part of our capstone project.
-We had the privilege of presenting an approach to video generation as a [poster](/files/video-generation-poster.pdf) at [C-MInDS, IIT Bombay](https://www.minds.iitb.ac.in/).
+We had the privilege of presenting an approach to video generation as a [poster](/files/aiimpact2023-poster.pdf) at [C-MInDS, IIT Bombay](https://www.minds.iitb.ac.in/).
 We messed around with diffusion-based text-to-image models, and came across a parameter classifier-free guidance scale, which we found had a significant impact on the generated output.
 Read more about our research [here](/publication/icici2024).
 
 ![](images/iitb-poster-presentation.png)
 
-After my 6th semester, I joined *Nasdaq* as a summer intern. For my internship project, I was tasked with creating an NLP-based minimum viable product, and after 2 months, pitched it to the product team.
+After my 6th semester, I joined [Nasdaq](https://www.nasdaq.com/) as a summer intern. For my internship project, I was tasked with creating an NLP-based minimum viable product, and after 2 months, pitched it to the product team.
 The product was greenlit, and my internship duration was extended to allow me to continue working on it.
 
 ![](images/me-on-nasdaq-tower.png)
@@ -57,3 +57,7 @@ During my 8th semester, along with my internship, I served as an undergraduate t
 In parallel, I mentored at a 6-month long machine learning bootcamp at [Nasdaq, Bengaluru](https://www.nasdaq.com/about/careers/bangalore).
 
 ![Nasdaq Bengaluru Developers community picture](/images/nasdaq-developers-community.jpg)
+
+After over 2 years at Nasdaq, I decided to pursue a master's in Computer Science at the [University of California, Riverside](https://www.ucr.edu/). A quarter into my master's program, I started working as a Data Researcher for the division of [Health, Well-being, and Safety](https://hwsresearch.ucr.edu/) at UC Riverside. I've been building data analytics dashboards and pipelines for HWS, and working on a year-long study leveraging social media to assess student needs and match patterns that merit follow-ups: a project whose results I'm presenting very soon at the American Public Health Association's 2026 Annual Meeting and Expo in San Antonio, TX. See the project's [interactive dashboard](/hwm) and [poster](/files/apha-poster.pdf).
+
+During the summer of 2026, I got to work at [Salesforce](https://www.salesforce.com). I spent 12 weeks in San Francisco building an agentic workflow for application performance monitoring. It was a daunting project with many org-specific nuances, but working on it taught me a lot. My project went live at the end of the internship, set to save conservatively over 20,000 engineering hours. Building such a high-impact product, alongside an incredible team, was an invaluable experience.
