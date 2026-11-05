@@ -3,6 +3,510 @@
   "features": [
     {
       "type": "Feature",
+      "id": "1xnbfbx:Stonehaven Apartments",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3316273,
+          33.9834412
+        ]
+      },
+      "properties": {
+        "post_id": "1xnbfbx",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Stonehaven Apartments",
+        "occurred_at": "2026-11-03T17:33:49",
+        "selftext": "https://preview.redd.it/ik8ng5mi1izh1.png?width=485&format=png&auto=webp&s=9b1f1202e8ae77256f51d9c158f4d0c8231ff37d\n\nWho in the world thought this was a good idea LMFAO. I can't wait to move out of this apartment.",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xnbfbx/stonehaven_it/",
+        "coordinate_source": "OpenStreetMap Resident Services feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/996489300"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xn5rog:Glen Mor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32008,
+          33.9779
+        ]
+      },
+      "properties": {
+        "post_id": "1xn5rog",
+        "category_key": "housing_information",
+        "category": "Housing information or logistics",
+        "is_concern": 0,
+        "marker_color": "#0f766e",
+        "place": "Glen Mor",
+        "occurred_at": "2026-11-03T13:28:47",
+        "selftext": "Recently my friend got written up during room inspection at Glen mor housing for violating housing policy. Basically, in short, guests of his left paraphernalia trash/remains in his room without his knowledge and he had to explain to residential director what happened. He met with the director online and was just given a written warning sanction and nothing more in an email format for records/state they met. He is worried that this will tarnish his record and chances for grad school/med school admission if he marks the institutional action (IA) box on apps and/or med schools ask for transcripts and student files. Does anyone know whether a one-time incident like this remains on internal housing records or is formally kept on file like under the UCR SCAIP office? And whether it should be reported on apps? looking for advice or suggestions from anyone who knows",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xn5rog/oncampus_housing_policy_violation_and_applying_to/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
+        "coordinate_source_url": "https://mapcarta.com/N368174238"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xm4c2h:North District 2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.330816,
+          33.980435
+        ]
+      },
+      "properties": {
+        "post_id": "1xm4c2h",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "North District 2",
+        "occurred_at": "2026-11-02T09:57:49",
+        "selftext": "I’ve decided to live at home to help take care of my family so I terminated my ND2 contract. You can get any assignment in ND2 that is available rn and gender doesn’t matter. It’s also paid through the end of the year! PM for details!",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xm4c2h/nd2_takeover/",
+        "coordinate_source": "OpenStreetMap midpoint of North District 2 C/D building footprints",
+        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980435/-117.330816"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xlot99:Highlander Union Building",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3288,
+          33.97431
+        ]
+      },
+      "properties": {
+        "post_id": "1xlot99",
+        "category_key": "campus_activity",
+        "category": "Campus activity or event",
+        "is_concern": 0,
+        "marker_color": "#0891b2",
+        "place": "Highlander Union Building",
+        "occurred_at": "2026-11-01T21:24:07",
+        "selftext": "I know there was a dia de los muertos event going on in the study room above the hub, room 360 something I think  \nIs it going to be happening on Monday?? I have a midterm and I’d like to study beforehand 🥲🥲",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xlot99/is_the_study_room_open/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (building point)",
+        "coordinate_source_url": "https://mapcarta.com/W233678054"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xlnwg5:Glen Mor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32008,
+          33.9779
+        ]
+      },
+      "properties": {
+        "post_id": "1xlnwg5",
+        "category_key": "housing_information",
+        "category": "Housing information or logistics",
+        "is_concern": 0,
+        "marker_color": "#0f766e",
+        "place": "Glen Mor",
+        "occurred_at": "2026-11-01T20:33:37",
+        "selftext": "",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xlnwg5/glen_mor_lease_takeover_female_only_free_rent/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
+        "coordinate_source_url": "https://mapcarta.com/N368174238"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xlc18w:Student Recreation Center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.328133,
+          33.978901
+        ]
+      },
+      "properties": {
+        "post_id": "1xlc18w",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Student Recreation Center",
+        "occurred_at": "2026-11-01T11:29:22",
+        "selftext": "",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xlc18w/orbach_son_or_src_daughter/",
+        "coordinate_source": "OpenStreetMap coordinates via DBpedia",
+        "coordinate_source_url": "https://dbpedia.org/page/UC_Riverside_Student_Recreation_Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xlc18w:Orbach Science Library",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32442,
+          33.97457
+        ]
+      },
+      "properties": {
+        "post_id": "1xlc18w",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Orbach Science Library",
+        "occurred_at": "2026-11-01T11:29:22",
+        "selftext": "",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xlc18w/orbach_son_or_src_daughter/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (building centroid)",
+        "coordinate_source_url": "https://mapcarta.com/W303519578"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xk4lv0:Glen Mor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32008,
+          33.9779
+        ]
+      },
+      "properties": {
+        "post_id": "1xk4lv0",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Glen Mor",
+        "occurred_at": "2026-10-31T01:14:08",
+        "selftext": "I rudely walked up too these two homies talking on the benches next to Glen mor, I was eavesdropping on their conversation but when I entered we chopped it up and had a good time. Please don’t ghost me y’all I gave the digits out I’m just tryna chop it up with dope people. HML",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xk4lv0/two_homies_j_and_another_bro/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
+        "coordinate_source_url": "https://mapcarta.com/N368174238"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xjv3f7:Lothian Residence Hall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32254,
+          33.97557
+        ]
+      },
+      "properties": {
+        "post_id": "1xjv3f7",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Lothian Residence Hall",
+        "occurred_at": "2026-10-30T16:43:14",
+        "selftext": "Are there any open halloween parties? Preferably in Lothian or near",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xjv3f7/any_halloween_parties/",
+        "coordinate_source": "OpenStreetMap via Mapcarta",
+        "coordinate_source_url": "https://mapcarta.com/23083174"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xj4xgt:Highlander Union Building",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3288,
+          33.97431
+        ]
+      },
+      "properties": {
+        "post_id": "1xj4xgt",
+        "category_key": "campus_activity",
+        "category": "Campus activity or event",
+        "is_concern": 0,
+        "marker_color": "#0891b2",
+        "place": "Highlander Union Building",
+        "occurred_at": "2026-10-29T20:35:32",
+        "selftext": "whats going at the hub saw a huge line but dont know what's it for, looked fun (10/29)\n\n[](https://www.reddit.com/submit/?source_id=t3_1xj4wxh&composer_entry=crosspost_prompt)",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xj4xgt/ucr_event/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (building point)",
+        "coordinate_source_url": "https://mapcarta.com/W233678054"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xhy56g:North District 2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.330816,
+          33.980435
+        ]
+      },
+      "properties": {
+        "post_id": "1xhy56g",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "North District 2",
+        "occurred_at": "2026-10-28T12:35:43",
+        "selftext": "",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xhy56g/looking_to_replacements_in_nd2/",
+        "coordinate_source": "OpenStreetMap midpoint of North District 2 C/D building footprints",
+        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980435/-117.330816"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xgm4w1:Dundee Residence Hall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3244,
+          33.978775
+        ]
+      },
+      "properties": {
+        "post_id": "1xgm4w1",
+        "category_key": "housing_information",
+        "category": "Housing information or logistics",
+        "is_concern": 0,
+        "marker_color": "#0f766e",
+        "place": "Dundee Residence Hall",
+        "occurred_at": "2026-10-27T00:35:31",
+        "selftext": "I'm a first year at UCR, so this is my first time living away from home. I live in Dundee (which is supposedly the best dorm). I tend to be a very neat person, to the extent that I vacuum + scrub every surface with soap & water at the end of the week. However, the residence halls are HORRENDOUS. The bathrooms are filthy as hell, people literally shaving and leaving their hair across the sink, leaving open food waste outside of the garbage, etc. When I tried to dispose of trash last week, the trash chutes were working perfectly fine, but there were many people dumping their trash into a pile instead of into the chute and it smelled really really bad. This is just one of the many problems, I could go on and on about how bad the living conditions are. Why are people so filthy? Do people not know basic manners?",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xgm4w1/why_are_people_genuinely_so_disgusting/",
+        "coordinate_source": "Approximate center of OSM-mapped Dundee A and Dundee B buildings",
+        "coordinate_source_url": "https://mapcarta.com/W1031413111"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xgaap3:Stonehaven Apartments",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3316273,
+          33.9834412
+        ]
+      },
+      "properties": {
+        "post_id": "1xgaap3",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Stonehaven Apartments",
+        "occurred_at": "2026-10-26T14:48:49",
+        "selftext": "To anyone living in the D building, one of the apartments caught on fire. Heard the firemen say the kitchen got it bad. Sorry",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xgaap3/stonehaven_fire/",
+        "coordinate_source": "OpenStreetMap Resident Services feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/996489300"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xga6kt:Stonehaven Apartments",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3316273,
+          33.9834412
+        ]
+      },
+      "properties": {
+        "post_id": "1xga6kt",
+        "category_key": "housing_information",
+        "category": "Housing information or logistics",
+        "is_concern": 0,
+        "marker_color": "#0f766e",
+        "place": "Stonehaven Apartments",
+        "occurred_at": "2026-10-26T14:44:13",
+        "selftext": "There's a bunch of firetrucks around there",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xga6kt/does_anyone_know_whats_happening_at_stonehaven_rn/",
+        "coordinate_source": "OpenStreetMap Resident Services feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/996489300"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xfetft:Student Health and Counseling Center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3233333,
+          33.9788889
+        ]
+      },
+      "properties": {
+        "post_id": "1xfetft",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Student Health and Counseling Center",
+        "occurred_at": "2026-10-25T14:47:52",
+        "selftext": "I’ve had UC SHIP for the past two years but haven’t really used it, so I’m not too familiar with how everything works. recently, I’ve been dealing with some health issues and I’m wondering if it could be related to vitamin deficiencies or something else that I should get checked out.\n\nhas anyone had experience getting bloodwork or a general checkup through SHS? how was the process, and were you able to get the labs you needed? I’d appreciate hearing about your experiences, especially if you were in a similar situation. thank you !!",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xfetft/student_health_services/",
+        "coordinate_source": "UCR Student Health & Counseling Center project coordinates (CEQAnet)",
+        "coordinate_source_url": "https://ceqanet.lci.ca.gov/2020120011/2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xf9zx2:Student Recreation Center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.328133,
+          33.978901
+        ]
+      },
+      "properties": {
+        "post_id": "1xf9zx2",
+        "category_key": "housing_information",
+        "category": "Housing information or logistics",
+        "is_concern": 0,
+        "marker_color": "#0f766e",
+        "place": "Student Recreation Center",
+        "occurred_at": "2026-10-25T11:33:55",
+        "selftext": "I bought a shaker from SRC for $10. I used it to mix my protein powder once and the cap snapped off. When I first got it the lit won't even close, I didn't realize that until I left the SRC and arrived at my apartment.  I should've listened to my friend and gotten cheaper ones on Amazon and they are probably sturdier. Does anyone know if they allow refund or exchange?",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xf9zx2/low_quality_shaker_from_src/",
+        "coordinate_source": "OpenStreetMap coordinates via DBpedia",
+        "coordinate_source_url": "https://dbpedia.org/page/UC_Riverside_Student_Recreation_Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xd6vuz:Glen Mor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32008,
+          33.9779
+        ]
+      },
+      "properties": {
+        "post_id": "1xd6vuz",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Glen Mor",
+        "occurred_at": "2026-10-22T23:57:55",
+        "selftext": "I'm so disappointed to find out that there are no study rooms in old Glen Mor, even though there are rooms in the new buildings. We all pay the same price for the rent, the school could at least give the residents in the old buildings access to the study rooms in the new buildings. \n\nAre there any alternatives besides the library?",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xd6vuz/lack_of_study_rooms_in_glen_mor/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
+        "coordinate_source_url": "https://mapcarta.com/N368174238"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xd1g7f:University Lecture Hall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3283816,
+          33.9756852
+        ]
+      },
+      "properties": {
+        "post_id": "1xd1g7f",
+        "category_key": "campus_activity",
+        "category": "Campus activity or event",
+        "is_concern": 0,
+        "marker_color": "#0891b2",
+        "place": "University Lecture Hall",
+        "occurred_at": "2026-10-22T19:03:14",
+        "selftext": "Saw someone's skullpanda on the floor today near the university lecture hall!! Left it near the university hall!",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xd1g7f/skullpanda_keychain/",
+        "coordinate_source": "OpenStreetMap building footprint",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/260043064"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xcxgr9:Bourns Hall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.326912,
+          33.975456
+        ]
+      },
+      "properties": {
+        "post_id": "1xcxgr9",
+        "category_key": "lost_found",
+        "category": "Lost or found property",
+        "is_concern": 0,
+        "marker_color": "#64748b",
+        "place": "Bourns Hall",
+        "occurred_at": "2026-10-22T15:57:35",
+        "selftext": "",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xcxgr9/water_bottle_and_keys_found_in_bourns_womens/",
+        "coordinate_source": "OpenStreetMap building footprint",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/431945808"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xctchk:Orbach Science Library",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32442,
+          33.97457
+        ]
+      },
+      "properties": {
+        "post_id": "1xctchk",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Orbach Science Library",
+        "occurred_at": "2026-10-22T13:08:43",
+        "selftext": "I struggle to find quiet study spots on campuses because non-designated quiet spots are usually packed full of donkey-fucking doofuses, and the one designated quiet spot I do know (Orbach 2nd Floor) has this very strange high-pitched ringing that I assume is from their security system. Does anyone have some underrated spots I could give a try?",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xctchk/underrated_study_spots/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (building centroid)",
+        "coordinate_source_url": "https://mapcarta.com/W303519578"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1xbdtt7:Student Recreation Center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.328133,
+          33.978901
+        ]
+      },
+      "properties": {
+        "post_id": "1xbdtt7",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Student Recreation Center",
+        "occurred_at": "2026-10-20T21:41:26",
+        "selftext": "After we rebuilt the entire APP from vanilla HTML CSS JS, we got a lot of constructive feedbacks from you guys and we made a lot of improvements.\n\nIf you're new to GoHighlander APP, definately give it a try and tell us how you think!\n\niOS devices: [https://apps.apple.com/us/app/gohighlander/id6498866335](https://apps.apple.com/us/app/gohighlander/id6498866335)\n\nAndroid ,PC and Mac: Open [https://ucr.one](https://ucr.one) directly and choose install app\n\nAlso don't forget to check out the GoHighlander Website: [https://gohighlander.app](https://gohighlander.app), you can plan your course, check RMP reviews and course difficulty database reviews all in this one website, you can block off days you dont wanna go to school and it generates the best schedule that fits for you. Most importantly, you can load your planned schedule directly into the APP.\n\nCheck this post for more details:\n\n[https://www.reddit.com/r/ucr/comments/1q6vy7g/ucr\\_course\\_browser\\_difficulty\\_professor\\_ratings/](https://www.reddit.com/r/ucr/comments/1q6vy7g/ucr_course_browser_difficulty_professor_ratings/)\n\nAnnnnnd here are the detailed update logs:\n\n[Faster, integrated pages for parking, dining menus, SRC occupancy, and useful links.](https://preview.redd.it/acq7rkyb0rwh1.png?width=2496&format=png&auto=webp&s=b9f81b28672816ea1093a8073a83b60c606d1d48)\n\n[A better campus map with clearer icons, organized categories, location previews, and satellite\\/street map options.](https://preview.redd.it/ir2jbvue0rwh1.png?width=2478&format=png&auto=webp&s=d39a913a262d4fbd96196b00333ada23c4980ecc)\n\n[Your classes on the map: See your classroom locations for the selected term and which classes meet there.](https://preview.redd.it/aifch03l0rwh1.png?width=2498&format=png&auto=webp&s=e95c173cba32ce4d1fe78c87b92fc3bdfc80b39a)\n\n[More dining information: Find 30 venues, check hours and open\\/closed status, view menus, and locate dining halls on the map.](https://preview.redd.it/02r5ajqn0rwh1.png?width=2332&format=png&auto=webp&s=b7089386fb7a52502195c48feffb229caf4dcf53)\n\n[Built-in floor-plan viewer with zoom and drag controls.](https://preview.redd.it/3a1bfe5q0rwh1.png?width=2464&format=png&auto=webp&s=4cd4d46aacf6ba1afe08271ba9384b931700d159)\n\nAnd.... some without images\n\n* Improved Desktop/Pad view experience (no more UI look like phone UI but dragged)\n* Apple Map Links now opens directly in Maps APP, without opening the web version.\n* Expanded English, Spanish, and Chinese support, along with a detailed privacy policy.\n\n\n\n",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1xbdtt7/gohighlander_app_your_all_in_one_app_for_ucr_just/",
+        "coordinate_source": "OpenStreetMap coordinates via DBpedia",
+        "coordinate_source_url": "https://dbpedia.org/page/UC_Riverside_Student_Recreation_Center"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "1xbaft1:Student Recreation Center",
       "geometry": {
         "type": "Point",
@@ -243,30 +747,6 @@
     },
     {
       "type": "Feature",
-      "id": "1x4h64b:Parking Lot 22",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3282,
-          33.9809
-        ]
-      },
-      "properties": {
-        "post_id": "1x4h64b",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Parking Lot 22",
-        "occurred_at": "2026-10-12T16:24:37",
-        "selftext": "hi! i live in ND 1 building A and had my scooter parked out by the right side of the door to that building by lot 22. someone stole it today, but the lock was not damaged or missing, it was still there. \n\ni know this kind of thing happens quite often, but it's not in the cards for me to buy a new one right now and UCPD told me there are no cameras in that area but they'll still try to help. if you guys see it around campus please let me know asap.",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1x4h64b/help_locate_a_scooter/",
-        "coordinate_source": "Approximate point digitized from UCR Directory Map 2025 inset B",
-        "coordinate_source_url": "https://documents.ucr.edu/ucomm/ucomm_ucr_campus-map.pdf"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1x4h64b:North District 1",
       "geometry": {
         "type": "Point",
@@ -287,6 +767,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1x4h64b/help_locate_a_scooter/",
         "coordinate_source": "OpenStreetMap midpoint of North District A/B building footprints",
         "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980093/-117.326927"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1x4h64b:Parking Lot 22",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3282,
+          33.9809
+        ]
+      },
+      "properties": {
+        "post_id": "1x4h64b",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Parking Lot 22",
+        "occurred_at": "2026-10-12T16:24:37",
+        "selftext": "hi! i live in ND 1 building A and had my scooter parked out by the right side of the door to that building by lot 22. someone stole it today, but the lock was not damaged or missing, it was still there. \n\ni know this kind of thing happens quite often, but it's not in the cards for me to buy a new one right now and UCPD told me there are no cameras in that area but they'll still try to help. if you guys see it around campus please let me know asap.",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1x4h64b/help_locate_a_scooter/",
+        "coordinate_source": "Approximate point digitized from UCR Directory Map 2025 inset B",
+        "coordinate_source_url": "https://documents.ucr.edu/ucomm/ucomm_ucr_campus-map.pdf"
       }
     },
     {
@@ -363,30 +867,6 @@
     },
     {
       "type": "Feature",
-      "id": "1wz8y72:Highlander at North Campus",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3397702,
-          33.9850029
-        ]
-      },
-      "properties": {
-        "post_id": "1wz8y72",
-        "category_key": "housing_information",
-        "category": "Housing information or logistics",
-        "is_concern": 0,
-        "marker_color": "#0f766e",
-        "place": "Highlander at North Campus",
-        "occurred_at": "2026-10-06T10:40:18",
-        "selftext": "I’m trying to leave UVT, which I should’ve thought about this since last year, but after this rate increase, I can’t convince myself it’s okay anymore. I only started living there last year, and the rooms they advertise online is not what I’m currently living in right now and I think that’s some bs. I started looking around, and I’m thinking about Highlander at North Campus just because it is cheaper, and hopefully nicer, but what do you guys think? Even if I do leave, does anyone know how it works? Can I just pay to leave? I don’t know what to do anymore",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1wz8y72/leaving_uvt/",
-        "coordinate_source": "OpenStreetMap property feature",
-        "coordinate_source_url": "https://www.openstreetmap.org/way/475127136"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1wz8y72:University Village Towers",
       "geometry": {
         "type": "Point",
@@ -407,6 +887,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1wz8y72/leaving_uvt/",
         "coordinate_source": "OpenStreetMap property feature",
         "coordinate_source_url": "https://www.openstreetmap.org/way/119568926"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1wz8y72:Highlander at North Campus",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3397702,
+          33.9850029
+        ]
+      },
+      "properties": {
+        "post_id": "1wz8y72",
+        "category_key": "housing_information",
+        "category": "Housing information or logistics",
+        "is_concern": 0,
+        "marker_color": "#0f766e",
+        "place": "Highlander at North Campus",
+        "occurred_at": "2026-10-06T10:40:18",
+        "selftext": "I’m trying to leave UVT, which I should’ve thought about this since last year, but after this rate increase, I can’t convince myself it’s okay anymore. I only started living there last year, and the rooms they advertise online is not what I’m currently living in right now and I think that’s some bs. I started looking around, and I’m thinking about Highlander at North Campus just because it is cheaper, and hopefully nicer, but what do you guys think? Even if I do leave, does anyone know how it works? Can I just pay to leave? I don’t know what to do anymore",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1wz8y72/leaving_uvt/",
+        "coordinate_source": "OpenStreetMap property feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/475127136"
       }
     },
     {
@@ -1611,30 +2115,6 @@
     },
     {
       "type": "Feature",
-      "id": "1wdrj4a:Student Success Center",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3305,
-          33.9741667
-        ]
-      },
-      "properties": {
-        "post_id": "1wdrj4a",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Student Success Center",
-        "occurred_at": "2026-09-11T14:19:04",
-        "selftext": "Are you bored out of your mind and want to find a new hobby?\n\nJoin Highlander Duelists, UCR's premiere (and only) Yu-Gi-Oh club!\n\nWe meet at the Hub every day, all day (present members may vary depending on time of day), and hold weekly meetings on Friday, usually somewhere in the SSC!\n\nIf you're interested in Yu-Gi-Oh, want to make new friends, or are simply just bored out of your mind, just show up to the Hub, next to the Hibachi-san at any time next quarter (you've probably seen us there if you've passed by). We can also loan out decks and teach you the ropes of how to play. Recently, we've also started a new player program where we give out free deck cores to new players!\n\nFor the more knowledgeable players out there, we play Modern, but we also try out different formats, and there's decently sizable populations of HAT, TOSS and Edison players too, and our members also play other TCGs if you're also interested in those!\n\nIf you're unsure, just join our discord server to get to know people! We're a lively community and we'd love to have more people!  \n[https://discord.gg/RPJH9AkH4q](https://discord.gg/RPJH9AkH4q)",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1wdrj4a/highlander_duelists_yugioh_club/",
-        "coordinate_source": "UCR Student Success Center project coordinates (CEQAnet)",
-        "coordinate_source_url": "https://ceqanet.lci.ca.gov/2019089058/2"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1wdrj4a:Highlander Union Building",
       "geometry": {
         "type": "Point",
@@ -1655,6 +2135,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1wdrj4a/highlander_duelists_yugioh_club/",
         "coordinate_source": "OpenStreetMap via Mapcarta (building point)",
         "coordinate_source_url": "https://mapcarta.com/W233678054"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1wdrj4a:Student Success Center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3305,
+          33.9741667
+        ]
+      },
+      "properties": {
+        "post_id": "1wdrj4a",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Student Success Center",
+        "occurred_at": "2026-09-11T14:19:04",
+        "selftext": "Are you bored out of your mind and want to find a new hobby?\n\nJoin Highlander Duelists, UCR's premiere (and only) Yu-Gi-Oh club!\n\nWe meet at the Hub every day, all day (present members may vary depending on time of day), and hold weekly meetings on Friday, usually somewhere in the SSC!\n\nIf you're interested in Yu-Gi-Oh, want to make new friends, or are simply just bored out of your mind, just show up to the Hub, next to the Hibachi-san at any time next quarter (you've probably seen us there if you've passed by). We can also loan out decks and teach you the ropes of how to play. Recently, we've also started a new player program where we give out free deck cores to new players!\n\nFor the more knowledgeable players out there, we play Modern, but we also try out different formats, and there's decently sizable populations of HAT, TOSS and Edison players too, and our members also play other TCGs if you're also interested in those!\n\nIf you're unsure, just join our discord server to get to know people! We're a lively community and we'd love to have more people!  \n[https://discord.gg/RPJH9AkH4q](https://discord.gg/RPJH9AkH4q)",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1wdrj4a/highlander_duelists_yugioh_club/",
+        "coordinate_source": "UCR Student Success Center project coordinates (CEQAnet)",
+        "coordinate_source_url": "https://ceqanet.lci.ca.gov/2019089058/2"
       }
     },
     {
@@ -1995,30 +2499,6 @@
     },
     {
       "type": "Feature",
-      "id": "1w7sjqb:North District 1",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.326927,
-          33.980093
-        ]
-      },
-      "properties": {
-        "post_id": "1w7sjqb",
-        "category_key": "theft",
-        "category": "Theft or property crime",
-        "is_concern": 1,
-        "marker_color": "#c2410c",
-        "place": "North District 1",
-        "occurred_at": "2026-09-04T23:12:12",
-        "selftext": "**Ring doorbell at North District 2?**  \nHas anyone living in North District 1 or 2 used a Ring/video doorbell on their apartment door? I’m moving into ND2 and was thinking of using one with a no-drill, anti-theft door mount because I’ve had some safety concerns. Did housing ever say anything about it or tell you it wasn’t allowed?  \nI’m especially wondering about one that faces the hallway. If recording isn’t allowed, I’d honestly still consider using a non-recording/dead one just as a visible deterrent, so I’m also curious whether they care about the physical door mount itself. Thanks!",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1w7sjqb/has_anyone_in_north_district_1_or_2_used_a/",
-        "coordinate_source": "OpenStreetMap midpoint of North District A/B building footprints",
-        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980093/-117.326927"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1w7sjqb:North District 2",
       "geometry": {
         "type": "Point",
@@ -2039,6 +2519,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1w7sjqb/has_anyone_in_north_district_1_or_2_used_a/",
         "coordinate_source": "OpenStreetMap midpoint of North District 2 C/D building footprints",
         "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980435/-117.330816"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1w7sjqb:North District 1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.326927,
+          33.980093
+        ]
+      },
+      "properties": {
+        "post_id": "1w7sjqb",
+        "category_key": "theft",
+        "category": "Theft or property crime",
+        "is_concern": 1,
+        "marker_color": "#c2410c",
+        "place": "North District 1",
+        "occurred_at": "2026-09-04T23:12:12",
+        "selftext": "**Ring doorbell at North District 2?**  \nHas anyone living in North District 1 or 2 used a Ring/video doorbell on their apartment door? I’m moving into ND2 and was thinking of using one with a no-drill, anti-theft door mount because I’ve had some safety concerns. Did housing ever say anything about it or tell you it wasn’t allowed?  \nI’m especially wondering about one that faces the hallway. If recording isn’t allowed, I’d honestly still consider using a non-recording/dead one just as a visible deterrent, so I’m also curious whether they care about the physical door mount itself. Thanks!",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1w7sjqb/has_anyone_in_north_district_1_or_2_used_a/",
+        "coordinate_source": "OpenStreetMap midpoint of North District A/B building footprints",
+        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980093/-117.326927"
       }
     },
     {
@@ -3051,30 +3555,6 @@
     },
     {
       "type": "Feature",
-      "id": "1vqp1ey:Glen Mor",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.32008,
-          33.9779
-        ]
-      },
-      "properties": {
-        "post_id": "1vqp1ey",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Glen Mor",
-        "occurred_at": "2026-08-17T03:56:50",
-        "selftext": "\\> So I enrolled in ucr as a freshman for 2025-2026 year\n\n\\> I decide for the summer to take classes at a long beach community College with the intent of just transferring from ucr to this school for a year or 2\n\n\\> life shit happens now im just kinda regretting my decision damn near mid August now I just want to go back to ucr\n\n\\> but its like AUGUST Im missing all my deadlines\n\n\\> like housing im in a waitlist for like Glen mor and ND2 but it seems unlikely that ill get a spot by now\n\n\\> so I have to look for off campus stuff idk how that works\n\n\\> and also financial aid for some reason my pell grant went to ucr my cal grant went to my community college \n\n\\> and im looking at the award for ucr and idk it just looks a lot less im missing loans and stuff that's weird right \n\n\\> and I gotta register for my classes in September I dont even know where to look I fear all these classes have been taken up \n\n\\> gotta somehow send a transcript from the summer courses that I took but havent paid for bc no financial aid\n\n\\> pray I dont get dropped from psych since I never took a math class anywhere except in my CC\n\n\\> uh i think thats it if I can figure out everything out super cleanly then I wont be cooked but for now like im boiling what yall think",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1vqp1ey/wait_ok_how_cooked_am_i/",
-        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
-        "coordinate_source_url": "https://mapcarta.com/N368174238"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1vqp1ey:North District 2",
       "geometry": {
         "type": "Point",
@@ -3095,6 +3575,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1vqp1ey/wait_ok_how_cooked_am_i/",
         "coordinate_source": "OpenStreetMap midpoint of North District 2 C/D building footprints",
         "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980435/-117.330816"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1vqp1ey:Glen Mor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32008,
+          33.9779
+        ]
+      },
+      "properties": {
+        "post_id": "1vqp1ey",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Glen Mor",
+        "occurred_at": "2026-08-17T03:56:50",
+        "selftext": "\\> So I enrolled in ucr as a freshman for 2025-2026 year\n\n\\> I decide for the summer to take classes at a long beach community College with the intent of just transferring from ucr to this school for a year or 2\n\n\\> life shit happens now im just kinda regretting my decision damn near mid August now I just want to go back to ucr\n\n\\> but its like AUGUST Im missing all my deadlines\n\n\\> like housing im in a waitlist for like Glen mor and ND2 but it seems unlikely that ill get a spot by now\n\n\\> so I have to look for off campus stuff idk how that works\n\n\\> and also financial aid for some reason my pell grant went to ucr my cal grant went to my community college \n\n\\> and im looking at the award for ucr and idk it just looks a lot less im missing loans and stuff that's weird right \n\n\\> and I gotta register for my classes in September I dont even know where to look I fear all these classes have been taken up \n\n\\> gotta somehow send a transcript from the summer courses that I took but havent paid for bc no financial aid\n\n\\> pray I dont get dropped from psych since I never took a math class anywhere except in my CC\n\n\\> uh i think thats it if I can figure out everything out super cleanly then I wont be cooked but for now like im boiling what yall think",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1vqp1ey/wait_ok_how_cooked_am_i/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
+        "coordinate_source_url": "https://mapcarta.com/N368174238"
       }
     },
     {
@@ -3459,30 +3963,6 @@
     },
     {
       "type": "Feature",
-      "id": "1vff9xd:North District 1",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.326927,
-          33.980093
-        ]
-      },
-      "properties": {
-        "post_id": "1vff9xd",
-        "category_key": "housing_information",
-        "category": "Housing information or logistics",
-        "is_concern": 0,
-        "marker_color": "#0f766e",
-        "place": "North District 1",
-        "occurred_at": "2026-08-04T09:28:28",
-        "selftext": "Lease Available – Female Only At NORTH DISTRICT 1\n\n**UTILITIES INCLUDED**\n\n• Location: ON CAMPUS • Full school year lease • Private Bedroom + shared Bathroom (2 bed 1 bath) • Fully furnished ( bed, desk + chair, couch, dining table, fridge, etc.) • All-Girls Housing (safe + comfortable environment) • Amenities: Apartment only Gym, walking distance to SRC and the pool Study rooms and free printing ! DM if interested!",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1vff9xd/women_only_housing_school_term_lease_2_bed_1_bath/",
-        "coordinate_source": "OpenStreetMap midpoint of North District A/B building footprints",
-        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980093/-117.326927"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1vff9xd:Student Recreation Center",
       "geometry": {
         "type": "Point",
@@ -3503,6 +3983,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1vff9xd/women_only_housing_school_term_lease_2_bed_1_bath/",
         "coordinate_source": "OpenStreetMap coordinates via DBpedia",
         "coordinate_source_url": "https://dbpedia.org/page/UC_Riverside_Student_Recreation_Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1vff9xd:North District 1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.326927,
+          33.980093
+        ]
+      },
+      "properties": {
+        "post_id": "1vff9xd",
+        "category_key": "housing_information",
+        "category": "Housing information or logistics",
+        "is_concern": 0,
+        "marker_color": "#0f766e",
+        "place": "North District 1",
+        "occurred_at": "2026-08-04T09:28:28",
+        "selftext": "Lease Available – Female Only At NORTH DISTRICT 1\n\n**UTILITIES INCLUDED**\n\n• Location: ON CAMPUS • Full school year lease • Private Bedroom + shared Bathroom (2 bed 1 bath) • Fully furnished ( bed, desk + chair, couch, dining table, fridge, etc.) • All-Girls Housing (safe + comfortable environment) • Amenities: Apartment only Gym, walking distance to SRC and the pool Study rooms and free printing ! DM if interested!",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1vff9xd/women_only_housing_school_term_lease_2_bed_1_bath/",
+        "coordinate_source": "OpenStreetMap midpoint of North District A/B building footprints",
+        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980093/-117.326927"
       }
     },
     {
@@ -3843,30 +4347,6 @@
     },
     {
       "type": "Feature",
-      "id": "1vc0q47:Glen Mor",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.32008,
-          33.9779
-        ]
-      },
-      "properties": {
-        "post_id": "1vc0q47",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Glen Mor",
-        "occurred_at": "2026-07-31T12:28:08",
-        "selftext": "Choosing between these three PURELY on which one has the thickest walls/least amount of noise.",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1vc0q47/glen_mor_vs_stonehaven_vs_nd2/",
-        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
-        "coordinate_source_url": "https://mapcarta.com/N368174238"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1vc0q47:North District 2",
       "geometry": {
         "type": "Point",
@@ -3887,6 +4367,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1vc0q47/glen_mor_vs_stonehaven_vs_nd2/",
         "coordinate_source": "OpenStreetMap midpoint of North District 2 C/D building footprints",
         "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980435/-117.330816"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1vc0q47:Glen Mor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32008,
+          33.9779
+        ]
+      },
+      "properties": {
+        "post_id": "1vc0q47",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Glen Mor",
+        "occurred_at": "2026-07-31T12:28:08",
+        "selftext": "Choosing between these three PURELY on which one has the thickest walls/least amount of noise.",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1vc0q47/glen_mor_vs_stonehaven_vs_nd2/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
+        "coordinate_source_url": "https://mapcarta.com/N368174238"
       }
     },
     {
@@ -4563,30 +5067,6 @@
     },
     {
       "type": "Feature",
-      "id": "1uu5w2n:Glen Mor",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.32008,
-          33.9779
-        ]
-      },
-      "properties": {
-        "post_id": "1uu5w2n",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Glen Mor",
-        "occurred_at": "2026-07-11T21:59:00",
-        "selftext": "Hey guys, I’m doing a mini video project for a class. My group and I decided to make a budget friendly meal on campus. So my question is how can you make that $10/$15 spread efficiently.\n\n\\-Entree:  \n\\-Drink:  \n\\-side:  \n\\-Dessert:\n\nLmk! This is just supposed to be a fun project just looking for ideas.\n\nEdit: I plan to keep it onto to campus only through the Hub, Glen Mor Market, Basic Needs and Scotty’s ",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1uu5w2n/best_way_to_budget_10_maybe_15_on_campus/",
-        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
-        "coordinate_source_url": "https://mapcarta.com/N368174238"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1uu5w2n:Highlander Union Building",
       "geometry": {
         "type": "Point",
@@ -4607,6 +5087,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1uu5w2n/best_way_to_budget_10_maybe_15_on_campus/",
         "coordinate_source": "OpenStreetMap via Mapcarta (building point)",
         "coordinate_source_url": "https://mapcarta.com/W233678054"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1uu5w2n:Glen Mor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32008,
+          33.9779
+        ]
+      },
+      "properties": {
+        "post_id": "1uu5w2n",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Glen Mor",
+        "occurred_at": "2026-07-11T21:59:00",
+        "selftext": "Hey guys, I’m doing a mini video project for a class. My group and I decided to make a budget friendly meal on campus. So my question is how can you make that $10/$15 spread efficiently.\n\n\\-Entree:  \n\\-Drink:  \n\\-side:  \n\\-Dessert:\n\nLmk! This is just supposed to be a fun project just looking for ideas.\n\nEdit: I plan to keep it onto to campus only through the Hub, Glen Mor Market, Basic Needs and Scotty’s ",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1uu5w2n/best_way_to_budget_10_maybe_15_on_campus/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
+        "coordinate_source_url": "https://mapcarta.com/N368174238"
       }
     },
     {
@@ -4947,12 +5451,12 @@
     },
     {
       "type": "Feature",
-      "id": "1uk2bxx:Highlander Union Building",
+      "id": "1uk2bxx:University Village Towers",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.3288,
-          33.97431
+          -117.3391702,
+          33.9784038
         ]
       },
       "properties": {
@@ -4961,12 +5465,12 @@
         "category": "Housing information or logistics",
         "is_concern": 0,
         "marker_color": "#0f766e",
-        "place": "Highlander Union Building",
+        "place": "University Village Towers",
         "occurred_at": "2026-06-30T14:33:02",
         "selftext": "Have a room available in a 4 bed / 4 bath  unit starting September 12tb.\n\n$1185/month and utilities included.\n\n5 min scooter to SRC, 9 min to The HUB, 22 min walk if you don't have a scooter.\n\nWhat's included:  \n\\- Bed, mattress, nightstand, desk, closet  \n\\- Sink area, stove, refrigerator\n\nI have 3 very chill roommates that I would’ve like to live with unfortunately cannot but anyone who lives with them will have a an amazing opportunity to make friends.\n\nPrivate bathrooms, spacious, and relatively close to campus. \n\nDM me and mention \"UVT”— I'll send photos and details.",
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1uk2bxx/looking_for_someone_to_sublease_my_room_at_uvt/",
-        "coordinate_source": "OpenStreetMap via Mapcarta (building point)",
-        "coordinate_source_url": "https://mapcarta.com/W233678054"
+        "coordinate_source": "OpenStreetMap property feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/119568926"
       }
     },
     {
@@ -4995,12 +5499,12 @@
     },
     {
       "type": "Feature",
-      "id": "1uk2bxx:University Village Towers",
+      "id": "1uk2bxx:Highlander Union Building",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.3391702,
-          33.9784038
+          -117.3288,
+          33.97431
         ]
       },
       "properties": {
@@ -5009,12 +5513,12 @@
         "category": "Housing information or logistics",
         "is_concern": 0,
         "marker_color": "#0f766e",
-        "place": "University Village Towers",
+        "place": "Highlander Union Building",
         "occurred_at": "2026-06-30T14:33:02",
         "selftext": "Have a room available in a 4 bed / 4 bath  unit starting September 12tb.\n\n$1185/month and utilities included.\n\n5 min scooter to SRC, 9 min to The HUB, 22 min walk if you don't have a scooter.\n\nWhat's included:  \n\\- Bed, mattress, nightstand, desk, closet  \n\\- Sink area, stove, refrigerator\n\nI have 3 very chill roommates that I would’ve like to live with unfortunately cannot but anyone who lives with them will have a an amazing opportunity to make friends.\n\nPrivate bathrooms, spacious, and relatively close to campus. \n\nDM me and mention \"UVT”— I'll send photos and details.",
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1uk2bxx/looking_for_someone_to_sublease_my_room_at_uvt/",
-        "coordinate_source": "OpenStreetMap property feature",
-        "coordinate_source_url": "https://www.openstreetmap.org/way/119568926"
+        "coordinate_source": "OpenStreetMap via Mapcarta (building point)",
+        "coordinate_source_url": "https://mapcarta.com/W233678054"
       }
     },
     {
@@ -5643,30 +6147,6 @@
     },
     {
       "type": "Feature",
-      "id": "1u3c4p8:Orbach Science Library",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.32442,
-          33.97457
-        ]
-      },
-      "properties": {
-        "post_id": "1u3c4p8",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Orbach Science Library",
-        "occurred_at": "2026-06-11T14:31:21",
-        "selftext": "I was walking from the hub to the Orbach library and lost my portable charger bank around 10:40-11am. Please let me know if you found it. I was just borrowing it from a friend so this really sucks.",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1u3c4p8/lost_my_portable_charger_bank/",
-        "coordinate_source": "OpenStreetMap via Mapcarta (building centroid)",
-        "coordinate_source_url": "https://mapcarta.com/W303519578"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1u3c4p8:Highlander Union Building",
       "geometry": {
         "type": "Point",
@@ -5687,6 +6167,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1u3c4p8/lost_my_portable_charger_bank/",
         "coordinate_source": "OpenStreetMap via Mapcarta (building point)",
         "coordinate_source_url": "https://mapcarta.com/W233678054"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1u3c4p8:Orbach Science Library",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32442,
+          33.97457
+        ]
+      },
+      "properties": {
+        "post_id": "1u3c4p8",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Orbach Science Library",
+        "occurred_at": "2026-06-11T14:31:21",
+        "selftext": "I was walking from the hub to the Orbach library and lost my portable charger bank around 10:40-11am. Please let me know if you found it. I was just borrowing it from a friend so this really sucks.",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1u3c4p8/lost_my_portable_charger_bank/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (building centroid)",
+        "coordinate_source_url": "https://mapcarta.com/W303519578"
       }
     },
     {
@@ -7299,30 +7803,6 @@
     },
     {
       "type": "Feature",
-      "id": "1thf0bx:Pentland Hills Residence Hall",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.322648,
-          33.9777824
-        ]
-      },
-      "properties": {
-        "post_id": "1thf0bx",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Pentland Hills Residence Hall",
-        "occurred_at": "2026-05-19T00:00:35",
-        "selftext": "I cannot go a single night without people running down the path between Pentland and Lothian screaming around 12-2am. This is directly under my window. I have 8am classes. Sometimes it's just conversations being (much) louder than necessary, but sometimes two people stand there just to scream \"HELP\" and then start laughing? Please grow up and have some consideration for everyone's sleep schedules 🙏",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1thf0bx/please_stop_screaming_outside_dorms_in_the_middle/",
-        "coordinate_source": "OpenStreetMap residence-hall feature",
-        "coordinate_source_url": "https://www.openstreetmap.org/node/368174255"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1thf0bx:Lothian Residence Hall",
       "geometry": {
         "type": "Point",
@@ -7343,6 +7823,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1thf0bx/please_stop_screaming_outside_dorms_in_the_middle/",
         "coordinate_source": "OpenStreetMap via Mapcarta",
         "coordinate_source_url": "https://mapcarta.com/23083174"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1thf0bx:Pentland Hills Residence Hall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.322648,
+          33.9777824
+        ]
+      },
+      "properties": {
+        "post_id": "1thf0bx",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Pentland Hills Residence Hall",
+        "occurred_at": "2026-05-19T00:00:35",
+        "selftext": "I cannot go a single night without people running down the path between Pentland and Lothian screaming around 12-2am. This is directly under my window. I have 8am classes. Sometimes it's just conversations being (much) louder than necessary, but sometimes two people stand there just to scream \"HELP\" and then start laughing? Please grow up and have some consideration for everyone's sleep schedules 🙏",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1thf0bx/please_stop_screaming_outside_dorms_in_the_middle/",
+        "coordinate_source": "OpenStreetMap residence-hall feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/node/368174255"
       }
     },
     {
@@ -7755,30 +8259,6 @@
     },
     {
       "type": "Feature",
-      "id": "1t9ib9n:Pentland Hills Residence Hall",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.322648,
-          33.9777824
-        ]
-      },
-      "properties": {
-        "post_id": "1t9ib9n",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Pentland Hills Residence Hall",
-        "occurred_at": "2026-05-10T13:40:46",
-        "selftext": "To keep this short I’m an incoming freshman, and I was wondering if people actually used e-bikes on campus. I’m hoping to live in a Pentland or Lothian triple. So my questions are: \n\n\\- should I get one/are they worth the price?  \n\\- are they needed for going to class/work/store?\n\nThanks! ",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1t9ib9n/ebikestrikes_on_campus/",
-        "coordinate_source": "OpenStreetMap residence-hall feature",
-        "coordinate_source_url": "https://www.openstreetmap.org/node/368174255"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1t9ib9n:Lothian Residence Hall",
       "geometry": {
         "type": "Point",
@@ -7799,6 +8279,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1t9ib9n/ebikestrikes_on_campus/",
         "coordinate_source": "OpenStreetMap via Mapcarta",
         "coordinate_source_url": "https://mapcarta.com/23083174"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1t9ib9n:Pentland Hills Residence Hall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.322648,
+          33.9777824
+        ]
+      },
+      "properties": {
+        "post_id": "1t9ib9n",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Pentland Hills Residence Hall",
+        "occurred_at": "2026-05-10T13:40:46",
+        "selftext": "To keep this short I’m an incoming freshman, and I was wondering if people actually used e-bikes on campus. I’m hoping to live in a Pentland or Lothian triple. So my questions are: \n\n\\- should I get one/are they worth the price?  \n\\- are they needed for going to class/work/store?\n\nThanks! ",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1t9ib9n/ebikestrikes_on_campus/",
+        "coordinate_source": "OpenStreetMap residence-hall feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/node/368174255"
       }
     },
     {
@@ -8139,30 +8643,6 @@
     },
     {
       "type": "Feature",
-      "id": "1t6njqj:GrandMarc at University Village",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3402448,
-          33.9772258
-        ]
-      },
-      "properties": {
-        "post_id": "1t6njqj",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "GrandMarc at University Village",
-        "occurred_at": "2026-05-07T14:07:15",
-        "selftext": "",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1t6njqj/opinions_on_off_campus_housing_grandmarc_uvt_etc/",
-        "coordinate_source": "OpenStreetMap property feature",
-        "coordinate_source_url": "https://www.openstreetmap.org/way/911364447"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1t6njqj:University Village Towers",
       "geometry": {
         "type": "Point",
@@ -8183,6 +8663,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1t6njqj/opinions_on_off_campus_housing_grandmarc_uvt_etc/",
         "coordinate_source": "OpenStreetMap property feature",
         "coordinate_source_url": "https://www.openstreetmap.org/way/119568926"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1t6njqj:GrandMarc at University Village",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3402448,
+          33.9772258
+        ]
+      },
+      "properties": {
+        "post_id": "1t6njqj",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "GrandMarc at University Village",
+        "occurred_at": "2026-05-07T14:07:15",
+        "selftext": "",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1t6njqj/opinions_on_off_campus_housing_grandmarc_uvt_etc/",
+        "coordinate_source": "OpenStreetMap property feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/911364447"
       }
     },
     {
@@ -8259,30 +8763,6 @@
     },
     {
       "type": "Feature",
-      "id": "1t5yvil:GrandMarc at University Village",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3402448,
-          33.9772258
-        ]
-      },
-      "properties": {
-        "post_id": "1t5yvil",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "GrandMarc at University Village",
-        "occurred_at": "2026-05-06T20:27:14",
-        "selftext": "",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1t5yvil/opinions_on_off_campus_housing_grandmarc_uvt_etc/",
-        "coordinate_source": "OpenStreetMap property feature",
-        "coordinate_source_url": "https://www.openstreetmap.org/way/911364447"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1t5yvil:University Village Towers",
       "geometry": {
         "type": "Point",
@@ -8303,6 +8783,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1t5yvil/opinions_on_off_campus_housing_grandmarc_uvt_etc/",
         "coordinate_source": "OpenStreetMap property feature",
         "coordinate_source_url": "https://www.openstreetmap.org/way/119568926"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1t5yvil:GrandMarc at University Village",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3402448,
+          33.9772258
+        ]
+      },
+      "properties": {
+        "post_id": "1t5yvil",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "GrandMarc at University Village",
+        "occurred_at": "2026-05-06T20:27:14",
+        "selftext": "",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1t5yvil/opinions_on_off_campus_housing_grandmarc_uvt_etc/",
+        "coordinate_source": "OpenStreetMap property feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/911364447"
       }
     },
     {
@@ -8715,30 +9219,6 @@
     },
     {
       "type": "Feature",
-      "id": "1t0gu9e:UCR Bell Tower",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.32818,
-          33.97334
-        ]
-      },
-      "properties": {
-        "post_id": "1t0gu9e",
-        "category_key": "lost_found",
-        "category": "Lost or found property",
-        "is_concern": 0,
-        "marker_color": "#64748b",
-        "place": "UCR Bell Tower",
-        "occurred_at": "2026-04-30T19:41:12",
-        "selftext": "Have yall seen/picked up a missing Cinnamoroll around campus? It disappeared around 6:50- 7:20 and landed around Orbach lawn/The Clock Tower stretch of lawn and it carried a lot of history with it. Please let me know if it is found. Thank you!",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1t0gu9e/missing_cinnamoroll/",
-        "coordinate_source": "Mapcarta listing based on OpenStreetMap data",
-        "coordinate_source_url": "https://mapcarta.com/W544203788"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1t0gu9e:Orbach Science Library",
       "geometry": {
         "type": "Point",
@@ -8759,6 +9239,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1t0gu9e/missing_cinnamoroll/",
         "coordinate_source": "OpenStreetMap via Mapcarta (building centroid)",
         "coordinate_source_url": "https://mapcarta.com/W303519578"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1t0gu9e:UCR Bell Tower",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32818,
+          33.97334
+        ]
+      },
+      "properties": {
+        "post_id": "1t0gu9e",
+        "category_key": "lost_found",
+        "category": "Lost or found property",
+        "is_concern": 0,
+        "marker_color": "#64748b",
+        "place": "UCR Bell Tower",
+        "occurred_at": "2026-04-30T19:41:12",
+        "selftext": "Have yall seen/picked up a missing Cinnamoroll around campus? It disappeared around 6:50- 7:20 and landed around Orbach lawn/The Clock Tower stretch of lawn and it carried a lot of history with it. Please let me know if it is found. Thank you!",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1t0gu9e/missing_cinnamoroll/",
+        "coordinate_source": "Mapcarta listing based on OpenStreetMap data",
+        "coordinate_source_url": "https://mapcarta.com/W544203788"
       }
     },
     {
@@ -9435,30 +9939,6 @@
     },
     {
       "type": "Feature",
-      "id": "1srad73:Student Success Center",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3305,
-          33.9741667
-        ]
-      },
-      "properties": {
-        "post_id": "1srad73",
-        "category_key": "housing_information",
-        "category": "Housing information or logistics",
-        "is_concern": 0,
-        "marker_color": "#0f766e",
-        "place": "Student Success Center",
-        "occurred_at": "2026-04-20T19:08:28",
-        "selftext": "genuine question are yall blind???? IT CLEARLY IS A SCOOTER LANE. SCOOTER PEOPLE STICK TO DRIVING ON IT CAUSE YALL ALWAYS COMPLAIN ABOUT SCOOTERS BUMPING INTO U ON SIDEWALKS AND CAMPUS BUT NOOO YALL WANNA WALK ON SCOOTER LANE AND COMPLAIN IF U EAT SHIT CAUSE OF IT. this happened twice today first of all a girl randomly crossing in front of me in the scooter lane from nd2 to ssc while i had 2 scooters behind me, had i stopped all 3 of us woulda ate shit i had to yell at her to move back and then she froze and moved last second like come onnnn. at least she had quick reflex tho. second time i saw couple people walking on the new scooter lanes next to ssc. they clearly put them up there for a reason, for scooter people to use them, WHY ARE YALL WALKING THERE? the sidewalk next to ssc is huge af but yall wanna walk on the far right of it where the scooter lane is??? open ur eyes get off the phone and be aware of ur surroundings and most importantly stop hating on scooters if ur someone that walks in their lanes. im not saying some people who scooter aren’t also dumb af and dont know how to scooter but ts even crazierrr.\n\nEDIT: I meant BIKE LANES YES MB I WAS JUST HEATED BUT EVEN BIKERS PROLLY FACE THE SAME ISSUE 😭",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1srad73/people_who_walk_in_scooter_lanes/",
-        "coordinate_source": "UCR Student Success Center project coordinates (CEQAnet)",
-        "coordinate_source_url": "https://ceqanet.lci.ca.gov/2019089058/2"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1srad73:North District 2",
       "geometry": {
         "type": "Point",
@@ -9479,6 +9959,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1srad73/people_who_walk_in_scooter_lanes/",
         "coordinate_source": "OpenStreetMap midpoint of North District 2 C/D building footprints",
         "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980435/-117.330816"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1srad73:Student Success Center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3305,
+          33.9741667
+        ]
+      },
+      "properties": {
+        "post_id": "1srad73",
+        "category_key": "housing_information",
+        "category": "Housing information or logistics",
+        "is_concern": 0,
+        "marker_color": "#0f766e",
+        "place": "Student Success Center",
+        "occurred_at": "2026-04-20T19:08:28",
+        "selftext": "genuine question are yall blind???? IT CLEARLY IS A SCOOTER LANE. SCOOTER PEOPLE STICK TO DRIVING ON IT CAUSE YALL ALWAYS COMPLAIN ABOUT SCOOTERS BUMPING INTO U ON SIDEWALKS AND CAMPUS BUT NOOO YALL WANNA WALK ON SCOOTER LANE AND COMPLAIN IF U EAT SHIT CAUSE OF IT. this happened twice today first of all a girl randomly crossing in front of me in the scooter lane from nd2 to ssc while i had 2 scooters behind me, had i stopped all 3 of us woulda ate shit i had to yell at her to move back and then she froze and moved last second like come onnnn. at least she had quick reflex tho. second time i saw couple people walking on the new scooter lanes next to ssc. they clearly put them up there for a reason, for scooter people to use them, WHY ARE YALL WALKING THERE? the sidewalk next to ssc is huge af but yall wanna walk on the far right of it where the scooter lane is??? open ur eyes get off the phone and be aware of ur surroundings and most importantly stop hating on scooters if ur someone that walks in their lanes. im not saying some people who scooter aren’t also dumb af and dont know how to scooter but ts even crazierrr.\n\nEDIT: I meant BIKE LANES YES MB I WAS JUST HEATED BUT EVEN BIKERS PROLLY FACE THE SAME ISSUE 😭",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1srad73/people_who_walk_in_scooter_lanes/",
+        "coordinate_source": "UCR Student Success Center project coordinates (CEQAnet)",
+        "coordinate_source_url": "https://ceqanet.lci.ca.gov/2019089058/2"
       }
     },
     {
@@ -9795,6 +10299,30 @@
     },
     {
       "type": "Feature",
+      "id": "1slz6e6:Dundee Residence Hall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3244,
+          33.978775
+        ]
+      },
+      "properties": {
+        "post_id": "1slz6e6",
+        "category_key": "housing_information",
+        "category": "Housing information or logistics",
+        "is_concern": 0,
+        "marker_color": "#0f766e",
+        "place": "Dundee Residence Hall",
+        "occurred_at": "2026-04-15T00:36:54",
+        "selftext": "I guess I should ask about the pros and cons of all the residence halls.  I saw a post from 6 years ago, but not sure if things have changed.  Since Dundee and Pentland were discussed below, any comments on Aberdeen Inverness and Lothian?  Thanks.",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1slz6e6/residence_halls/",
+        "coordinate_source": "Approximate center of OSM-mapped Dundee A and Dundee B buildings",
+        "coordinate_source_url": "https://mapcarta.com/W1031413111"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "1slz6e6:Pentland Hills Residence Hall",
       "geometry": {
         "type": "Point",
@@ -9863,30 +10391,6 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1slz6e6/residence_halls/",
         "coordinate_source": "OpenStreetMap via Mapcarta",
         "coordinate_source_url": "https://mapcarta.com/23083174"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "1slz6e6:Dundee Residence Hall",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3244,
-          33.978775
-        ]
-      },
-      "properties": {
-        "post_id": "1slz6e6",
-        "category_key": "housing_information",
-        "category": "Housing information or logistics",
-        "is_concern": 0,
-        "marker_color": "#0f766e",
-        "place": "Dundee Residence Hall",
-        "occurred_at": "2026-04-15T00:36:54",
-        "selftext": "I guess I should ask about the pros and cons of all the residence halls.  I saw a post from 6 years ago, but not sure if things have changed.  Since Dundee and Pentland were discussed below, any comments on Aberdeen Inverness and Lothian?  Thanks.",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1slz6e6/residence_halls/",
-        "coordinate_source": "Approximate center of OSM-mapped Dundee A and Dundee B buildings",
-        "coordinate_source_url": "https://mapcarta.com/W1031413111"
       }
     },
     {
@@ -10755,12 +11259,12 @@
     },
     {
       "type": "Feature",
-      "id": "1sav3w2:Glen Mor",
+      "id": "1sav3w2:North District 2",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.32008,
-          33.9779
+          -117.330816,
+          33.980435
         ]
       },
       "properties": {
@@ -10769,12 +11273,12 @@
         "category": "General location mention",
         "is_concern": 0,
         "marker_color": "#2563eb",
-        "place": "Glen Mor",
+        "place": "North District 2",
         "occurred_at": "2026-04-02T14:58:46",
         "selftext": "I'm so confused at the lack of on campus housing tbh. I know that bannockburn being shutdown will cause people to relocate to other spots but oh my god I can't believe how little spaces there are. My selection time was today at 2:30, I went on that exact minute and the only spaces available are doubles in ND2. I remember last year I was a transfer who signed up for classes late (end of April) and there were still SO many single spaces available. I'm boggled at how FALKIRK and THE PLAZA (no shade to them but I remember last year there was a shit ton of empty rooms noone was taking) are COMPLETELY FULL before my timeslot. Last yr (end of April again btw for anyone who forgot) I had a hard time deciding between like 5 ND2 single rooms and 7 Glen Mor singles. wtf happened??? ",
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1sav3w2/on_campus_housing_full/",
-        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
-        "coordinate_source_url": "https://mapcarta.com/N368174238"
+        "coordinate_source": "OpenStreetMap midpoint of North District 2 C/D building footprints",
+        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980435/-117.330816"
       }
     },
     {
@@ -10803,12 +11307,12 @@
     },
     {
       "type": "Feature",
-      "id": "1sav3w2:North District 2",
+      "id": "1sav3w2:Glen Mor",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.330816,
-          33.980435
+          -117.32008,
+          33.9779
         ]
       },
       "properties": {
@@ -10817,12 +11321,12 @@
         "category": "General location mention",
         "is_concern": 0,
         "marker_color": "#2563eb",
-        "place": "North District 2",
+        "place": "Glen Mor",
         "occurred_at": "2026-04-02T14:58:46",
         "selftext": "I'm so confused at the lack of on campus housing tbh. I know that bannockburn being shutdown will cause people to relocate to other spots but oh my god I can't believe how little spaces there are. My selection time was today at 2:30, I went on that exact minute and the only spaces available are doubles in ND2. I remember last year I was a transfer who signed up for classes late (end of April) and there were still SO many single spaces available. I'm boggled at how FALKIRK and THE PLAZA (no shade to them but I remember last year there was a shit ton of empty rooms noone was taking) are COMPLETELY FULL before my timeslot. Last yr (end of April again btw for anyone who forgot) I had a hard time deciding between like 5 ND2 single rooms and 7 Glen Mor singles. wtf happened??? ",
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1sav3w2/on_campus_housing_full/",
-        "coordinate_source": "OpenStreetMap midpoint of North District 2 C/D building footprints",
-        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980435/-117.330816"
+        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
+        "coordinate_source_url": "https://mapcarta.com/N368174238"
       }
     },
     {
@@ -11955,30 +12459,6 @@
     },
     {
       "type": "Feature",
-      "id": "1rtcihd:Highlander Union Building",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3288,
-          33.97431
-        ]
-      },
-      "properties": {
-        "post_id": "1rtcihd",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Highlander Union Building",
-        "occurred_at": "2026-03-13T23:53:37",
-        "selftext": "It was a long day, I came home to nap and few hours later, I woke up finding out I left my laptop at campus. I only went to SSC where I last used my laptop before going to CHASS level 2 to take my Japanese speaking exam at my professor’s office. I brought a lot of prep material with me so my backpack without my laptop is already heavy to begin with, which is why I didn’t seem to notice the lighter weight. SSC front desk, the HUB nor UCPD received a lost laptop, which means I left it at CHASS level 2 where the language department is at. \n\nRegardless, if you have found a light blue Tomtoc laptop sleeve with a laptop inside at CHASS, please DM me. 🙏🏻 That laptop is all I have to work on my school stuff, and the laptop rentals at the HUB don’t allow me to install programs I need to use to work on my assignment. 😭",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1rtcihd/i_possibly_left_my_laptop_at_chass_level_2/",
-        "coordinate_source": "OpenStreetMap via Mapcarta (building point)",
-        "coordinate_source_url": "https://mapcarta.com/W233678054"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1rtcihd:Student Success Center",
       "geometry": {
         "type": "Point",
@@ -11999,6 +12479,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1rtcihd/i_possibly_left_my_laptop_at_chass_level_2/",
         "coordinate_source": "UCR Student Success Center project coordinates (CEQAnet)",
         "coordinate_source_url": "https://ceqanet.lci.ca.gov/2019089058/2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1rtcihd:Highlander Union Building",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3288,
+          33.97431
+        ]
+      },
+      "properties": {
+        "post_id": "1rtcihd",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Highlander Union Building",
+        "occurred_at": "2026-03-13T23:53:37",
+        "selftext": "It was a long day, I came home to nap and few hours later, I woke up finding out I left my laptop at campus. I only went to SSC where I last used my laptop before going to CHASS level 2 to take my Japanese speaking exam at my professor’s office. I brought a lot of prep material with me so my backpack without my laptop is already heavy to begin with, which is why I didn’t seem to notice the lighter weight. SSC front desk, the HUB nor UCPD received a lost laptop, which means I left it at CHASS level 2 where the language department is at. \n\nRegardless, if you have found a light blue Tomtoc laptop sleeve with a laptop inside at CHASS, please DM me. 🙏🏻 That laptop is all I have to work on my school stuff, and the laptop rentals at the HUB don’t allow me to install programs I need to use to work on my assignment. 😭",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1rtcihd/i_possibly_left_my_laptop_at_chass_level_2/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (building point)",
+        "coordinate_source_url": "https://mapcarta.com/W233678054"
       }
     },
     {
@@ -12387,30 +12891,6 @@
     },
     {
       "type": "Feature",
-      "id": "1rp7vp8:Falkirk Apartments",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.33299,
-          33.97996
-        ]
-      },
-      "properties": {
-        "post_id": "1rp7vp8",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Falkirk Apartments",
-        "occurred_at": "2026-03-09T11:11:33",
-        "selftext": " i applied for campus housing and i had my time ticket yesterday 3/8 and for two hours the only option was nd2 which is not my goal so then the page on its own refreshed to stonehaven and falkirk with many options it let me choose it and then as i was adding it to my cart it disappeared and gave me an error and the whole page was gone. i went to housing services and they said theres nothing they can do, i asked my friend when his was and he said april ?! im so confused ",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1rp7vp8/campus_apartment_housing_issues/",
-        "coordinate_source": "OpenStreetMap apartment-building feature",
-        "coordinate_source_url": "https://www.openstreetmap.org/way/964571611"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1rp7vp8:North District 2",
       "geometry": {
         "type": "Point",
@@ -12431,6 +12911,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1rp7vp8/campus_apartment_housing_issues/",
         "coordinate_source": "OpenStreetMap midpoint of North District 2 C/D building footprints",
         "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980435/-117.330816"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1rp7vp8:Falkirk Apartments",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.33299,
+          33.97996
+        ]
+      },
+      "properties": {
+        "post_id": "1rp7vp8",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Falkirk Apartments",
+        "occurred_at": "2026-03-09T11:11:33",
+        "selftext": " i applied for campus housing and i had my time ticket yesterday 3/8 and for two hours the only option was nd2 which is not my goal so then the page on its own refreshed to stonehaven and falkirk with many options it let me choose it and then as i was adding it to my cart it disappeared and gave me an error and the whole page was gone. i went to housing services and they said theres nothing they can do, i asked my friend when his was and he said april ?! im so confused ",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1rp7vp8/campus_apartment_housing_issues/",
+        "coordinate_source": "OpenStreetMap apartment-building feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/964571611"
       }
     },
     {
@@ -12747,30 +13251,6 @@
     },
     {
       "type": "Feature",
-      "id": "1rlz6un:Winston Chung Hall",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.325794,
-          33.9753881
-        ]
-      },
-      "properties": {
-        "post_id": "1rlz6un",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Winston Chung Hall",
-        "occurred_at": "2026-03-05T16:41:32",
-        "selftext": "Did anyone else see a rly big black bull dog with no collar just roaming around happily on the street between ND and winston chung today😭 ",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1rlz6un/big_dog_on_campus/",
-        "coordinate_source": "OpenStreetMap building footprint",
-        "coordinate_source_url": "https://www.openstreetmap.org/way/376930890"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1rlz6un:North District 1",
       "geometry": {
         "type": "Point",
@@ -12791,6 +13271,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1rlz6un/big_dog_on_campus/",
         "coordinate_source": "OpenStreetMap midpoint of North District A/B building footprints",
         "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980093/-117.326927"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1rlz6un:Winston Chung Hall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.325794,
+          33.9753881
+        ]
+      },
+      "properties": {
+        "post_id": "1rlz6un",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Winston Chung Hall",
+        "occurred_at": "2026-03-05T16:41:32",
+        "selftext": "Did anyone else see a rly big black bull dog with no collar just roaming around happily on the street between ND and winston chung today😭 ",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1rlz6un/big_dog_on_campus/",
+        "coordinate_source": "OpenStreetMap building footprint",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/376930890"
       }
     },
     {
@@ -13299,12 +13803,12 @@
     },
     {
       "type": "Feature",
-      "id": "1rfdd0t:Bannockburn Village",
+      "id": "1rfdd0t:Falkirk Apartments",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.3325434,
-          33.9775156
+          -117.33299,
+          33.97996
         ]
       },
       "properties": {
@@ -13313,36 +13817,12 @@
         "category": "Building or facility problem",
         "is_concern": 1,
         "marker_color": "#7e22ce",
-        "place": "Bannockburn Village",
+        "place": "Falkirk Apartments",
         "occurred_at": "2026-02-26T07:36:48",
         "selftext": "Hey everyone, I just got admitted to the graduate program at University of California, Riverside for the fall and I’m starting to look at housing options.\n\nA few quick questions for people who know these places:\n\nI’m specifically looking for a 2 bed 2 bath or similar 2BHK style option. If anyone is also looking for a roommate for fall and is interested in getting a place together, feel free to DM me.\n\nI’ve been looking at the official on campus apartment options like Bannockburn Village, Falkirk, Glen Mor, Stonehaven, The Plaza, and North District.\n\nA few quick questions:\n\n\t1.\tBest on campus housing options?\n\nWhich of these are actually recommended for grad students in terms of comfort, space, and overall vibe? Are some clearly better than others?\n\n\t2.\tOn campus vs off campus\n\nFor grad students, is living on campus worth it in terms of safety, convenience, and value? Or do most people prefer off campus housing?\n\n\t3.\tSafety and overall experience\n\nHow safe do you feel living in campus housing? Any common issues with noise, parking, or maintenance?",
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1rfdd0t/looking_for_advice_on_best_housing_options/",
-        "coordinate_source": "OpenStreetMap property feature",
-        "coordinate_source_url": "https://www.openstreetmap.org/way/965521347"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "1rfdd0t:North District 1",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.326927,
-          33.980093
-        ]
-      },
-      "properties": {
-        "post_id": "1rfdd0t",
-        "category_key": "facility_maintenance",
-        "category": "Building or facility problem",
-        "is_concern": 1,
-        "marker_color": "#7e22ce",
-        "place": "North District 1",
-        "occurred_at": "2026-02-26T07:36:48",
-        "selftext": "Hey everyone, I just got admitted to the graduate program at University of California, Riverside for the fall and I’m starting to look at housing options.\n\nA few quick questions for people who know these places:\n\nI’m specifically looking for a 2 bed 2 bath or similar 2BHK style option. If anyone is also looking for a roommate for fall and is interested in getting a place together, feel free to DM me.\n\nI’ve been looking at the official on campus apartment options like Bannockburn Village, Falkirk, Glen Mor, Stonehaven, The Plaza, and North District.\n\nA few quick questions:\n\n\t1.\tBest on campus housing options?\n\nWhich of these are actually recommended for grad students in terms of comfort, space, and overall vibe? Are some clearly better than others?\n\n\t2.\tOn campus vs off campus\n\nFor grad students, is living on campus worth it in terms of safety, convenience, and value? Or do most people prefer off campus housing?\n\n\t3.\tSafety and overall experience\n\nHow safe do you feel living in campus housing? Any common issues with noise, parking, or maintenance?",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1rfdd0t/looking_for_advice_on_best_housing_options/",
-        "coordinate_source": "OpenStreetMap midpoint of North District A/B building footprints",
-        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980093/-117.326927"
+        "coordinate_source": "OpenStreetMap apartment-building feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/964571611"
       }
     },
     {
@@ -13371,6 +13851,30 @@
     },
     {
       "type": "Feature",
+      "id": "1rfdd0t:Bannockburn Village",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3325434,
+          33.9775156
+        ]
+      },
+      "properties": {
+        "post_id": "1rfdd0t",
+        "category_key": "facility_maintenance",
+        "category": "Building or facility problem",
+        "is_concern": 1,
+        "marker_color": "#7e22ce",
+        "place": "Bannockburn Village",
+        "occurred_at": "2026-02-26T07:36:48",
+        "selftext": "Hey everyone, I just got admitted to the graduate program at University of California, Riverside for the fall and I’m starting to look at housing options.\n\nA few quick questions for people who know these places:\n\nI’m specifically looking for a 2 bed 2 bath or similar 2BHK style option. If anyone is also looking for a roommate for fall and is interested in getting a place together, feel free to DM me.\n\nI’ve been looking at the official on campus apartment options like Bannockburn Village, Falkirk, Glen Mor, Stonehaven, The Plaza, and North District.\n\nA few quick questions:\n\n\t1.\tBest on campus housing options?\n\nWhich of these are actually recommended for grad students in terms of comfort, space, and overall vibe? Are some clearly better than others?\n\n\t2.\tOn campus vs off campus\n\nFor grad students, is living on campus worth it in terms of safety, convenience, and value? Or do most people prefer off campus housing?\n\n\t3.\tSafety and overall experience\n\nHow safe do you feel living in campus housing? Any common issues with noise, parking, or maintenance?",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1rfdd0t/looking_for_advice_on_best_housing_options/",
+        "coordinate_source": "OpenStreetMap property feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/965521347"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "1rfdd0t:Glen Mor",
       "geometry": {
         "type": "Point",
@@ -13395,12 +13899,12 @@
     },
     {
       "type": "Feature",
-      "id": "1rfdd0t:Falkirk Apartments",
+      "id": "1rfdd0t:North District 1",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.33299,
-          33.97996
+          -117.326927,
+          33.980093
         ]
       },
       "properties": {
@@ -13409,12 +13913,12 @@
         "category": "Building or facility problem",
         "is_concern": 1,
         "marker_color": "#7e22ce",
-        "place": "Falkirk Apartments",
+        "place": "North District 1",
         "occurred_at": "2026-02-26T07:36:48",
         "selftext": "Hey everyone, I just got admitted to the graduate program at University of California, Riverside for the fall and I’m starting to look at housing options.\n\nA few quick questions for people who know these places:\n\nI’m specifically looking for a 2 bed 2 bath or similar 2BHK style option. If anyone is also looking for a roommate for fall and is interested in getting a place together, feel free to DM me.\n\nI’ve been looking at the official on campus apartment options like Bannockburn Village, Falkirk, Glen Mor, Stonehaven, The Plaza, and North District.\n\nA few quick questions:\n\n\t1.\tBest on campus housing options?\n\nWhich of these are actually recommended for grad students in terms of comfort, space, and overall vibe? Are some clearly better than others?\n\n\t2.\tOn campus vs off campus\n\nFor grad students, is living on campus worth it in terms of safety, convenience, and value? Or do most people prefer off campus housing?\n\n\t3.\tSafety and overall experience\n\nHow safe do you feel living in campus housing? Any common issues with noise, parking, or maintenance?",
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1rfdd0t/looking_for_advice_on_best_housing_options/",
-        "coordinate_source": "OpenStreetMap apartment-building feature",
-        "coordinate_source_url": "https://www.openstreetmap.org/way/964571611"
+        "coordinate_source": "OpenStreetMap midpoint of North District A/B building footprints",
+        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980093/-117.326927"
       }
     },
     {
@@ -13563,30 +14067,6 @@
     },
     {
       "type": "Feature",
-      "id": "1rdtn3n:Glen Mor",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.32008,
-          33.9779
-        ]
-      },
-      "properties": {
-        "post_id": "1rdtn3n",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Glen Mor",
-        "occurred_at": "2026-02-24T13:39:27",
-        "selftext": "did anyone else get a time slot for today and the only options were ND2? i wanted glen mor :/ or maybe i just don’t know how it works lol.",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1rdtn3n/apartment_time_slot/",
-        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
-        "coordinate_source_url": "https://mapcarta.com/N368174238"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1rdtn3n:North District 2",
       "geometry": {
         "type": "Point",
@@ -13607,6 +14087,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1rdtn3n/apartment_time_slot/",
         "coordinate_source": "OpenStreetMap midpoint of North District 2 C/D building footprints",
         "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980435/-117.330816"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1rdtn3n:Glen Mor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32008,
+          33.9779
+        ]
+      },
+      "properties": {
+        "post_id": "1rdtn3n",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Glen Mor",
+        "occurred_at": "2026-02-24T13:39:27",
+        "selftext": "did anyone else get a time slot for today and the only options were ND2? i wanted glen mor :/ or maybe i just don’t know how it works lol.",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1rdtn3n/apartment_time_slot/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
+        "coordinate_source_url": "https://mapcarta.com/N368174238"
       }
     },
     {
@@ -13635,30 +14139,6 @@
     },
     {
       "type": "Feature",
-      "id": "1rdq0el:Skye Hall",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3288695,
-          33.9753101
-        ]
-      },
-      "properties": {
-        "post_id": "1rdq0el",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Skye Hall",
-        "occurred_at": "2026-02-24T11:28:44",
-        "selftext": "I’m having so many issues with my circuit breakers tripping/turning off. It’s mostly for my pc that I can’t use at all since it just shuts off. I have a surge protector that I got recommended and it’s still shutting off. It’s not just that though, My microwave also causes it to trigger sometimes and my air fryer as well. I’ve put in so many work orders but they always come 2-3 weeks after and it’s the one time i’m not there. ",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1rdq0el/getting_ridiculous_now_nd2/",
-        "coordinate_source": "OpenStreetMap building footprint",
-        "coordinate_source_url": "https://www.openstreetmap.org/way/233678052"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1rdq0el:North District 2",
       "geometry": {
         "type": "Point",
@@ -13679,6 +14159,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1rdq0el/getting_ridiculous_now_nd2/",
         "coordinate_source": "OpenStreetMap midpoint of North District 2 C/D building footprints",
         "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980435/-117.330816"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1rdq0el:Skye Hall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3288695,
+          33.9753101
+        ]
+      },
+      "properties": {
+        "post_id": "1rdq0el",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Skye Hall",
+        "occurred_at": "2026-02-24T11:28:44",
+        "selftext": "I’m having so many issues with my circuit breakers tripping/turning off. It’s mostly for my pc that I can’t use at all since it just shuts off. I have a surge protector that I got recommended and it’s still shutting off. It’s not just that though, My microwave also causes it to trigger sometimes and my air fryer as well. I’ve put in so many work orders but they always come 2-3 weeks after and it’s the one time i’m not there. ",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1rdq0el/getting_ridiculous_now_nd2/",
+        "coordinate_source": "OpenStreetMap building footprint",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/233678052"
       }
     },
     {
@@ -15267,30 +15771,6 @@
     },
     {
       "type": "Feature",
-      "id": "1qvf307:North District 1",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.326927,
-          33.980093
-        ]
-      },
-      "properties": {
-        "post_id": "1qvf307",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "North District 1",
-        "occurred_at": "2026-02-03T20:42:38",
-        "selftext": "Ik all the hate the scooter drivers get in the campus, but another thing that i hate the most are car drivers at ucr. like i almost got ran over by some asshole by the material science building and another time by the north district and src stop sign. \n\nliterally how tf does people get the fucking licences and not respect when someone is crossing the street 🤦🏻‍♂️🤦🏻‍♂️",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1qvf307/car_drivers/",
-        "coordinate_source": "OpenStreetMap midpoint of North District A/B building footprints",
-        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980093/-117.326927"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1qvf307:Student Recreation Center",
       "geometry": {
         "type": "Point",
@@ -15315,6 +15795,30 @@
     },
     {
       "type": "Feature",
+      "id": "1qvf307:North District 1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.326927,
+          33.980093
+        ]
+      },
+      "properties": {
+        "post_id": "1qvf307",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "North District 1",
+        "occurred_at": "2026-02-03T20:42:38",
+        "selftext": "Ik all the hate the scooter drivers get in the campus, but another thing that i hate the most are car drivers at ucr. like i almost got ran over by some asshole by the material science building and another time by the north district and src stop sign. \n\nliterally how tf does people get the fucking licences and not respect when someone is crossing the street 🤦🏻‍♂️🤦🏻‍♂️",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1qvf307/car_drivers/",
+        "coordinate_source": "OpenStreetMap midpoint of North District A/B building footprints",
+        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980093/-117.326927"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "1qv93by:North District 1",
       "geometry": {
         "type": "Point",
@@ -15335,6 +15839,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1qv93by/when_does_nd1_application_open_for_fall2026/",
         "coordinate_source": "OpenStreetMap midpoint of North District A/B building footprints",
         "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980093/-117.326927"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1qv58px:Student Success Center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3305,
+          33.9741667
+        ]
+      },
+      "properties": {
+        "post_id": "1qv58px",
+        "category_key": "housing_information",
+        "category": "Housing information or logistics",
+        "is_concern": 0,
+        "marker_color": "#0f766e",
+        "place": "Student Success Center",
+        "occurred_at": "2026-02-03T13:42:51",
+        "selftext": "ill go first:\n\n1. Src south (the bathrooms that are further in next to the basket ball courts)\n\n\\- its always sparkly clean, no one ever is in there so you are able to have uninterrupted bowel movements, lighting in there kinda majestic\n\n2. hub 3rd floor\n\n\\- quiet, kind of clean, no one uses it ever so its very private\n\n3. dundee\n\n\\- its newer and nice, very private (you basically get your own lil room to do ur business)\n\n4. ssc second floor\n\n\\- pretty clean, not that much foot traffic, also newer\n\n5. eastlo\n\n\\- been there once all i remember is it was nice",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1qv58px/what_are_your_top_5_spots_to_take_a_dump_on_campus/",
+        "coordinate_source": "UCR Student Success Center project coordinates (CEQAnet)",
+        "coordinate_source_url": "https://ceqanet.lci.ca.gov/2019089058/2"
       }
     },
     {
@@ -15383,30 +15911,6 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1qv58px/what_are_your_top_5_spots_to_take_a_dump_on_campus/",
         "coordinate_source": "OpenStreetMap coordinates via DBpedia",
         "coordinate_source_url": "https://dbpedia.org/page/UC_Riverside_Student_Recreation_Center"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "1qv58px:Student Success Center",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3305,
-          33.9741667
-        ]
-      },
-      "properties": {
-        "post_id": "1qv58px",
-        "category_key": "housing_information",
-        "category": "Housing information or logistics",
-        "is_concern": 0,
-        "marker_color": "#0f766e",
-        "place": "Student Success Center",
-        "occurred_at": "2026-02-03T13:42:51",
-        "selftext": "ill go first:\n\n1. Src south (the bathrooms that are further in next to the basket ball courts)\n\n\\- its always sparkly clean, no one ever is in there so you are able to have uninterrupted bowel movements, lighting in there kinda majestic\n\n2. hub 3rd floor\n\n\\- quiet, kind of clean, no one uses it ever so its very private\n\n3. dundee\n\n\\- its newer and nice, very private (you basically get your own lil room to do ur business)\n\n4. ssc second floor\n\n\\- pretty clean, not that much foot traffic, also newer\n\n5. eastlo\n\n\\- been there once all i remember is it was nice",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1qv58px/what_are_your_top_5_spots_to_take_a_dump_on_campus/",
-        "coordinate_source": "UCR Student Success Center project coordinates (CEQAnet)",
-        "coordinate_source_url": "https://ceqanet.lci.ca.gov/2019089058/2"
       }
     },
     {
@@ -15651,30 +16155,6 @@
     },
     {
       "type": "Feature",
-      "id": "1qt5fbz:Glasgow Dining Commons",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3245397,
-          33.9779732
-        ]
-      },
-      "properties": {
-        "post_id": "1qt5fbz",
-        "category_key": "health_exposure",
-        "category": "Sanitation or environmental health",
-        "is_concern": 1,
-        "marker_color": "#a16207",
-        "place": "Glasgow Dining Commons",
-        "occurred_at": "2026-02-01T09:55:53",
-        "selftext": "It wouldn’t be such a big deal that girls fart and stink up the place if we weren’t taught from middle school that girls “don’t fart or poop.” This has been canonical law, apparently, reinforced by the adults (including women) around us.\n\nSince arriving to UCR, I’ve noticed many a time where I went into a space that has only been occupied by a UCR girl, and been blasted by the pungency of her flatulence.\n\nAdmittedly, sometimes the smell is so brash, one would think that we would have received a sign of the diabolicalness of the presence of her ghastly guts (all the puns and entendres, throw them in there). But alas, they have been practicing ninja-like stealth farts for years. \n\nUCR Girls’ guts are full of Panda Express and Lothian and Glasgow deep fryer grease. We get it, we’re all eating the same stuff. But let’s be real: if the guys really spread their cheeks the ways the girls do (we generally hold our farts out of respect for the potential of the other \\[even if they aren’t there\\]), it would get really uncivilized on this campus.\n\nThis is not a judgment, moreso an observation. But it is one that was necessary to be made, because UCR girls fart silently, and by leaving this in the dark, I risk having more UCR guys be blamed for the cooked guts of our female counterparts.\n\nObviously, relieve yourself… but we see you. And smell you. You’re beautiful, but you’re human. Women should be free to fart, men should be free to fart, but(t) we should also all be more “free” in our attitudes toward one another. We’re humans, attending the same educational institution. We have a lot more in common than just your average fart bag.",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1qt5fbz/ucr_girls_fart_a_lot/",
-        "coordinate_source": "OpenStreetMap Glasgow feature",
-        "coordinate_source_url": "https://www.openstreetmap.org/way/1031413110"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1qt5fbz:Lothian Residence Hall",
       "geometry": {
         "type": "Point",
@@ -15695,6 +16175,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1qt5fbz/ucr_girls_fart_a_lot/",
         "coordinate_source": "OpenStreetMap via Mapcarta",
         "coordinate_source_url": "https://mapcarta.com/23083174"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1qt5fbz:Glasgow Dining Commons",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3245397,
+          33.9779732
+        ]
+      },
+      "properties": {
+        "post_id": "1qt5fbz",
+        "category_key": "health_exposure",
+        "category": "Sanitation or environmental health",
+        "is_concern": 1,
+        "marker_color": "#a16207",
+        "place": "Glasgow Dining Commons",
+        "occurred_at": "2026-02-01T09:55:53",
+        "selftext": "It wouldn’t be such a big deal that girls fart and stink up the place if we weren’t taught from middle school that girls “don’t fart or poop.” This has been canonical law, apparently, reinforced by the adults (including women) around us.\n\nSince arriving to UCR, I’ve noticed many a time where I went into a space that has only been occupied by a UCR girl, and been blasted by the pungency of her flatulence.\n\nAdmittedly, sometimes the smell is so brash, one would think that we would have received a sign of the diabolicalness of the presence of her ghastly guts (all the puns and entendres, throw them in there). But alas, they have been practicing ninja-like stealth farts for years. \n\nUCR Girls’ guts are full of Panda Express and Lothian and Glasgow deep fryer grease. We get it, we’re all eating the same stuff. But let’s be real: if the guys really spread their cheeks the ways the girls do (we generally hold our farts out of respect for the potential of the other \\[even if they aren’t there\\]), it would get really uncivilized on this campus.\n\nThis is not a judgment, moreso an observation. But it is one that was necessary to be made, because UCR girls fart silently, and by leaving this in the dark, I risk having more UCR guys be blamed for the cooked guts of our female counterparts.\n\nObviously, relieve yourself… but we see you. And smell you. You’re beautiful, but you’re human. Women should be free to fart, men should be free to fart, but(t) we should also all be more “free” in our attitudes toward one another. We’re humans, attending the same educational institution. We have a lot more in common than just your average fart bag.",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1qt5fbz/ucr_girls_fart_a_lot/",
+        "coordinate_source": "OpenStreetMap Glasgow feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/1031413110"
       }
     },
     {
@@ -15795,30 +16299,6 @@
     },
     {
       "type": "Feature",
-      "id": "1qpmy5i:North District 1",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.326927,
-          33.980093
-        ]
-      },
-      "properties": {
-        "post_id": "1qpmy5i",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "North District 1",
-        "occurred_at": "2026-01-28T12:27:00",
-        "selftext": "hi guys i have some questions abt housing and applying for it \n\n1) thoughts on glen mor vs north district? (if I can even get in)\n\n2) can u apply to multiple apartments? or will they cancel my application if I like submit an application to both glen mor and north district\n\n3) when exactly does housing applications open? i haven't gotten any email though I heard some ppl have\n\nthank u!",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1qpmy5i/oncampus_housing/",
-        "coordinate_source": "OpenStreetMap midpoint of North District A/B building footprints",
-        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980093/-117.326927"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1qpmy5i:Glen Mor",
       "geometry": {
         "type": "Point",
@@ -15839,6 +16319,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1qpmy5i/oncampus_housing/",
         "coordinate_source": "OpenStreetMap via Mapcarta (residential area point)",
         "coordinate_source_url": "https://mapcarta.com/N368174238"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1qpmy5i:North District 1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.326927,
+          33.980093
+        ]
+      },
+      "properties": {
+        "post_id": "1qpmy5i",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "North District 1",
+        "occurred_at": "2026-01-28T12:27:00",
+        "selftext": "hi guys i have some questions abt housing and applying for it \n\n1) thoughts on glen mor vs north district? (if I can even get in)\n\n2) can u apply to multiple apartments? or will they cancel my application if I like submit an application to both glen mor and north district\n\n3) when exactly does housing applications open? i haven't gotten any email though I heard some ppl have\n\nthank u!",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1qpmy5i/oncampus_housing/",
+        "coordinate_source": "OpenStreetMap midpoint of North District A/B building footprints",
+        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.980093/-117.326927"
       }
     },
     {
@@ -16155,30 +16659,6 @@
     },
     {
       "type": "Feature",
-      "id": "1qhv4pt:Glasgow Dining Commons",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3245397,
-          33.9779732
-        ]
-      },
-      "properties": {
-        "post_id": "1qhv4pt",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Glasgow Dining Commons",
-        "occurred_at": "2026-01-19T23:59:00",
-        "selftext": "So… I got tired of scrolling through the food menu trying to decide whether to go to Glasgow or Lothian, so I built a better menu website with a favorites feature.\n\nYou can check it out here: https://bearbites.dreaming.codes/\n\nYou can also install it as a PWA, so it shows up on your home screen like an app. Just open the share menu on iOS in Safari, or tap the three dots in Chrome on Android, then select Add to Home Screen or Install App.",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1qhv4pt/better_dining_menu_website/",
-        "coordinate_source": "OpenStreetMap Glasgow feature",
-        "coordinate_source_url": "https://www.openstreetmap.org/way/1031413110"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1qhv4pt:Lothian Residence Hall",
       "geometry": {
         "type": "Point",
@@ -16199,6 +16679,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1qhv4pt/better_dining_menu_website/",
         "coordinate_source": "OpenStreetMap via Mapcarta",
         "coordinate_source_url": "https://mapcarta.com/23083174"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1qhv4pt:Glasgow Dining Commons",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3245397,
+          33.9779732
+        ]
+      },
+      "properties": {
+        "post_id": "1qhv4pt",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Glasgow Dining Commons",
+        "occurred_at": "2026-01-19T23:59:00",
+        "selftext": "So… I got tired of scrolling through the food menu trying to decide whether to go to Glasgow or Lothian, so I built a better menu website with a favorites feature.\n\nYou can check it out here: https://bearbites.dreaming.codes/\n\nYou can also install it as a PWA, so it shows up on your home screen like an app. Just open the share menu on iOS in Safari, or tap the three dots in Chrome on Android, then select Add to Home Screen or Install App.",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1qhv4pt/better_dining_menu_website/",
+        "coordinate_source": "OpenStreetMap Glasgow feature",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/1031413110"
       }
     },
     {
@@ -16299,30 +16803,6 @@
     },
     {
       "type": "Feature",
-      "id": "1qfwucu:Winston Chung Hall",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.325794,
-          33.9753881
-        ]
-      },
-      "properties": {
-        "post_id": "1qfwucu",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Winston Chung Hall",
-        "occurred_at": "2026-01-17T18:51:54",
-        "selftext": "Calling all CS students! RoseHack at UCR is happening next weekend: January 24-25 in Winston Chung Hall.\n\nSome highlights:\n\n* Free registration\n* Free merch from RoseHack, CodeRabbit, and Framer\n* All meals included + snacks (Celsius etc)\n* UCR Engineers for Good is sponsoring a Social Good prize track, rewarding a paid summer internship for winners.\n* UCR School of Business will be there, sponsoring a prize track for the most profitable idea.\n* Some prizes include HHKB keyboards at $300 each...\n* 24 hours of hacking, networking, and feedback from industry professionals (Meta, Google, IBM, Amazon, to name a few...)\n\n**Signup at** [**rosehack.com**](http://rosehack.com)",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1qfwucu/cs_students_ucr_hackathon_in_7_days/",
-        "coordinate_source": "OpenStreetMap building footprint",
-        "coordinate_source_url": "https://www.openstreetmap.org/way/376930890"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1qfwucu:School of Business (Anderson Hall)",
       "geometry": {
         "type": "Point",
@@ -16343,6 +16823,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1qfwucu/cs_students_ucr_hackathon_in_7_days/",
         "coordinate_source": "Midpoint of OpenStreetMap Anderson Hall 1 and 2 footprints",
         "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.969702/-117.326110"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1qfwucu:Winston Chung Hall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.325794,
+          33.9753881
+        ]
+      },
+      "properties": {
+        "post_id": "1qfwucu",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Winston Chung Hall",
+        "occurred_at": "2026-01-17T18:51:54",
+        "selftext": "Calling all CS students! RoseHack at UCR is happening next weekend: January 24-25 in Winston Chung Hall.\n\nSome highlights:\n\n* Free registration\n* Free merch from RoseHack, CodeRabbit, and Framer\n* All meals included + snacks (Celsius etc)\n* UCR Engineers for Good is sponsoring a Social Good prize track, rewarding a paid summer internship for winners.\n* UCR School of Business will be there, sponsoring a prize track for the most profitable idea.\n* Some prizes include HHKB keyboards at $300 each...\n* 24 hours of hacking, networking, and feedback from industry professionals (Meta, Google, IBM, Amazon, to name a few...)\n\n**Signup at** [**rosehack.com**](http://rosehack.com)",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1qfwucu/cs_students_ucr_hackathon_in_7_days/",
+        "coordinate_source": "OpenStreetMap building footprint",
+        "coordinate_source_url": "https://www.openstreetmap.org/way/376930890"
       }
     },
     {
@@ -16659,30 +17163,6 @@
     },
     {
       "type": "Feature",
-      "id": "1q7wh8z:Tomas Rivera Library",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.32754,
-          33.97265
-        ]
-      },
-      "properties": {
-        "post_id": "1q7wh8z",
-        "category_key": "lost_found",
-        "category": "Lost or found property",
-        "is_concern": 0,
-        "marker_color": "#64748b",
-        "place": "Tomas Rivera Library",
-        "occurred_at": "2026-01-08T18:49:53",
-        "selftext": "Found this key with a dog cover on it. Was on the ground outside Watkins Hall. If you’re looking for it, I left it with the front desk at Rivera Library Lost and found. ",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1q7wh8z/key_found_outside_of_watkins_hall/",
-        "coordinate_source": "OpenStreetMap via Mapcarta (building centroid)",
-        "coordinate_source_url": "https://mapcarta.com/23151486"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1q7wh8z:Watkins Hall",
       "geometry": {
         "type": "Point",
@@ -16703,6 +17183,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1q7wh8z/key_found_outside_of_watkins_hall/",
         "coordinate_source": "OpenStreetMap-derived Watkins Hall building point",
         "coordinate_source_url": "https://mapcarta.com/23160680"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1q7wh8z:Tomas Rivera Library",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32754,
+          33.97265
+        ]
+      },
+      "properties": {
+        "post_id": "1q7wh8z",
+        "category_key": "lost_found",
+        "category": "Lost or found property",
+        "is_concern": 0,
+        "marker_color": "#64748b",
+        "place": "Tomas Rivera Library",
+        "occurred_at": "2026-01-08T18:49:53",
+        "selftext": "Found this key with a dog cover on it. Was on the ground outside Watkins Hall. If you’re looking for it, I left it with the front desk at Rivera Library Lost and found. ",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1q7wh8z/key_found_outside_of_watkins_hall/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (building centroid)",
+        "coordinate_source_url": "https://mapcarta.com/23151486"
       }
     },
     {
@@ -16731,30 +17235,6 @@
     },
     {
       "type": "Feature",
-      "id": "1q6oxiq:Highlander Union Building",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3288,
-          33.97431
-        ]
-      },
-      "properties": {
-        "post_id": "1q6oxiq",
-        "category_key": "general_location",
-        "category": "General location mention",
-        "is_concern": 0,
-        "marker_color": "#2563eb",
-        "place": "Highlander Union Building",
-        "occurred_at": "2026-01-07T11:23:56",
-        "selftext": "I saw a post from about a month ago mentioning petition people by the hub who turned out to be working for an alt right movement, was wondering if the people around the hub and ssc trying to get student signatures for petions are also alt righters trying to mislead people ",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1q6oxiq/are_the_petition_guys_by_the_hub_and_ssc_legit/",
-        "coordinate_source": "OpenStreetMap via Mapcarta (building point)",
-        "coordinate_source_url": "https://mapcarta.com/W233678054"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1q6oxiq:Student Success Center",
       "geometry": {
         "type": "Point",
@@ -16775,6 +17255,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1q6oxiq/are_the_petition_guys_by_the_hub_and_ssc_legit/",
         "coordinate_source": "UCR Student Success Center project coordinates (CEQAnet)",
         "coordinate_source_url": "https://ceqanet.lci.ca.gov/2019089058/2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1q6oxiq:Highlander Union Building",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3288,
+          33.97431
+        ]
+      },
+      "properties": {
+        "post_id": "1q6oxiq",
+        "category_key": "general_location",
+        "category": "General location mention",
+        "is_concern": 0,
+        "marker_color": "#2563eb",
+        "place": "Highlander Union Building",
+        "occurred_at": "2026-01-07T11:23:56",
+        "selftext": "I saw a post from about a month ago mentioning petition people by the hub who turned out to be working for an alt right movement, was wondering if the people around the hub and ssc trying to get student signatures for petions are also alt righters trying to mislead people ",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1q6oxiq/are_the_petition_guys_by_the_hub_and_ssc_legit/",
+        "coordinate_source": "OpenStreetMap via Mapcarta (building point)",
+        "coordinate_source_url": "https://mapcarta.com/W233678054"
       }
     },
     {
@@ -17403,30 +17907,6 @@
     },
     {
       "type": "Feature",
-      "id": "1poqcws:School of Business (Anderson Hall)",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.32611,
-          33.969702
-        ]
-      },
-      "properties": {
-        "post_id": "1poqcws",
-        "category_key": "personal_safety",
-        "category": "Personal safety or suspicious activity",
-        "is_concern": 1,
-        "marker_color": "#b91c1c",
-        "place": "School of Business (Anderson Hall)",
-        "occurred_at": "2025-12-16T23:19:35",
-        "selftext": "Basically I am stuck here on campus for break until Friday. And as you can imagine campus is pretty dead. I should have known better but I decided to go out for a jog around campus this late evening when I was just bored out of mind. As I was jogging up the hill near the som and shortly a little past that this guy (who I thought was a student) stopped me. He did seem like he was on the older side and skinny asian with grey hoodie. He asked me my major, what year I am and then if I am alone. He proceeded to ask for my number to which I declined. And he kept pressuring and asked for a hug. I immediately told him \"ill pepper spray if he touches me\" and I ran. idk if this is the same guy since I've seen some posts of similar stories of these creeps on campus. But just wanted to let yall know in case anyone else had any encounters with him",
-        "reddit_url": "https://www.reddit.com/r/ucr/comments/1poqcws/psa_creep_near_school_of_business/",
-        "coordinate_source": "Midpoint of OpenStreetMap Anderson Hall 1 and 2 footprints",
-        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.969702/-117.326110"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "1poqcws:School of Medicine",
       "geometry": {
         "type": "Point",
@@ -17447,6 +17927,30 @@
         "reddit_url": "https://www.reddit.com/r/ucr/comments/1poqcws/psa_creep_near_school_of_business/",
         "coordinate_source": "OpenStreetMap School of Medicine building",
         "coordinate_source_url": "https://www.openstreetmap.org/way/911758334"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1poqcws:School of Business (Anderson Hall)",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32611,
+          33.969702
+        ]
+      },
+      "properties": {
+        "post_id": "1poqcws",
+        "category_key": "personal_safety",
+        "category": "Personal safety or suspicious activity",
+        "is_concern": 1,
+        "marker_color": "#b91c1c",
+        "place": "School of Business (Anderson Hall)",
+        "occurred_at": "2025-12-16T23:19:35",
+        "selftext": "Basically I am stuck here on campus for break until Friday. And as you can imagine campus is pretty dead. I should have known better but I decided to go out for a jog around campus this late evening when I was just bored out of mind. As I was jogging up the hill near the som and shortly a little past that this guy (who I thought was a student) stopped me. He did seem like he was on the older side and skinny asian with grey hoodie. He asked me my major, what year I am and then if I am alone. He proceeded to ask for my number to which I declined. And he kept pressuring and asked for a hug. I immediately told him \"ill pepper spray if he touches me\" and I ran. idk if this is the same guy since I've seen some posts of similar stories of these creeps on campus. But just wanted to let yall know in case anyone else had any encounters with him",
+        "reddit_url": "https://www.reddit.com/r/ucr/comments/1poqcws/psa_creep_near_school_of_business/",
+        "coordinate_source": "Midpoint of OpenStreetMap Anderson Hall 1 and 2 footprints",
+        "coordinate_source_url": "https://www.openstreetmap.org/#map=18/33.969702/-117.326110"
       }
     },
     {
