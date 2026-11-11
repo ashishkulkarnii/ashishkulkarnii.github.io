@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RainScope India — Prototype</title>
+    <link rel="stylesheet" href="./leaflet.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="control-panel">
+        <div class="brand">
+          <span class="brand-mark">◒</span>
+          <div>
+            <h1>RainScope</h1>
+            <p>India precipitation explorer</p>
+          </div>
+        </div>
+
+        <section class="selection-card" aria-labelledby="area-title">
+          <div class="section-heading">
+            <h2 id="area-title">Select an area</h2>
+            <div class="selection-tabs" role="tablist" aria-label="Selection method">
+              <button id="areaTab" class="selection-tab is-active" role="tab" aria-selected="true" type="button">Area</button>
+              <button id="coordinateTab" class="selection-tab" role="tab" aria-selected="false" type="button">Coordinate</button>
+            </div>
+            <span id="modeBadge" class="mode-badge" hidden>Area</span>
+          </div>
+          <div id="areaPanel">
+            <label id="placeLabel" for="placeSearch">Search an area or PIN code</label>
+            <div class="search-row">
+              <input id="placeSearch" type="search" placeholder="e.g. Bengaluru, North Goa, or 501144" autocomplete="off" />
+              <button id="searchButton" class="primary-button" type="button">Find</button>
+            </div>
+            <div id="searchResults" class="search-results" role="listbox" hidden></div>
+            <p id="searchHint" class="field-hint">Choose a region to use its exact boundary.</p>
+          </div>
+          <div id="coordinatePanel" hidden>
+            <div id="coordinateFields" class="coordinate-fields">
+              <div>
+                <label for="latitude">Latitude</label>
+                <input id="latitude" inputmode="decimal" type="number" min="-90" max="90" step="any" placeholder="e.g. 12.9716" />
+              </div>
+              <div>
+                <label for="longitude">Longitude</label>
+                <input id="longitude" inputmode="decimal" type="number" min="-180" max="180" step="any" placeholder="e.g. 77.5946" />
+              </div>
+            </div>
+            <div id="radiusField">
+            <label for="radius">Radius</label>
+            <div class="radius-row">
+              <input id="radius" type="number" min="0.1" step="0.1" value="10" inputmode="decimal" />
+              <span>km</span>
+            </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="metrics-card" aria-labelledby="metrics-title">
+          <div class="metrics-heading">
+            <div>
+              <p id="dataMode" class="eyebrow">Open-Meteo forecast model</p>
+              <h2 id="metricsTitle">Area conditions</h2>
+            </div>
+            <span id="liveStatus" class="live-status"><i></i> LIVE</span>
+          </div>
+          <p id="simulationDate" class="simulation-date" aria-live="polite"></p>
+          <div class="metric-grid">
+            <article><span>Rain chance</span><strong id="chance">--</strong></article>
+            <article><span>Predicted coverage</span><strong id="coverage">--</strong></article>
+            <article><span>Expected intensity</span><strong id="intensity">--</strong></article>
+            <article><span>Peak intensity</span><strong id="peak">--</strong></article>
+          </div>
+          <div class="accumulation"><span>Accumulation through this step</span><strong id="accumulation">--</strong></div>
+          <p id="metricNote" class="metric-note">Metrics update while the simulation plays.</p>
+          <button id="advancedLink" class="advanced-link" type="button">Advanced options</button>
+          <div id="advancedPanel" class="advanced-panel" hidden>
+            <button id="advancedClose" class="advanced-close" type="button" aria-label="Hide advanced options">×</button>
+            <div class="threshold-setting">
+              <label for="coverageThreshold">Rain coverage threshold</label>
+              <div class="threshold-row">
+              <input id="coverageThreshold" type="number" min="0" step="0.1" value="0.1" inputmode="decimal" />
+              <span>mm/hr</span>
+              </div>
+            </div>
+            <p>Only precipitation at or above this rate counts toward coverage.</p>
+            <label class="contrast-toggle" for="highContrast">
+              <input id="highContrast" type="checkbox" />
+              <span>High-contrast map rain</span>
+            </label>
+          </div>
+        </section>
+
+        <section class="legend" aria-label="Precipitation intensity legend">
+          <span>Rain intensity</span>
+          <div class="legend-bar"></div>
+          <div class="legend-labels"><span>Light</span><span>Moderate</span><span>Heavy</span></div>
+        </section>
+        <footer class="data-license">
+          <a href="https://open-meteo.com/en/license" target="_blank" rel="noreferrer">Weather data by Open-Meteo.com · CC BY 4.0</a>
+        </footer>
+      </aside>
+
+      <section class="map-area" aria-label="Precipitation map">
+        <div id="map"></div>
+        <div class="map-topbar">
+          <a class="source-chip" href="https://open-meteo.com/" target="_blank" rel="noreferrer">OPEN-METEO FORECAST</a>
+          <span id="locationLabel">Bengaluru · 10 km radius</span>
+        </div>
+        <div id="clickPrompt" class="click-prompt">Double-click the map to select a coordinate</div>
+
+        <section class="timeline-card" aria-label="Precipitation simulation controls">
+          <div class="timeline-topline">
+            <div>
+              <p id="timelineMode" class="eyebrow">FORECAST MODEL</p>
+              <strong id="timelineTitle"></strong>
+            </div>
+            <button id="playButton" class="play-button" type="button" aria-label="Pause simulation">❚❚</button>
+          </div>
+          <div class="timeline-range-wrap"><input id="timeline" aria-label="Simulation time" type="range" min="0" max="47" value="0" step="1" /></div>
+          <div class="timeline-labels"><span id="startLabel"></span><span id="endLabel"></span></div>
+          <p class="timeline-help">The map and metrics advance together. Drag the timeline to inspect a specific time.</p>
+        </section>
+      </section>
+    </main>
+
+    <script src="./leaflet.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
