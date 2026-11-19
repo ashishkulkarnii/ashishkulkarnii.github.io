@@ -1,11 +1,11 @@
 ---
 title: "Better Open With"
-excerpt: "A macOS utility for choosing the default app for a file type, with saved profiles and an optional Finder contextual menu.<br/><img src='https://raw.githubusercontent.com/ashishkulkarnii/BetterOpenWith/main/docs/images/finder-menu.png' alt='Better Open With Finder menu'>"
+excerpt: "A macOS utility for choosing the default app for a file type, with saved profiles and an optional Finder contextual menu.<br/><img src='https://raw.githubusercontent.com/ashishkulkarnii/BetterOpenWith/main/docs/images/finder-choice.png' alt='Better Open With choices'>"
 collection: portfolio
 permalink: "projects/better-open-with"
 ---
 
-Better Open With is a small macOS utility for changing the default app for a file type. Pick an extension, choose an installed compatible app, and apply the system default—just like Finder’s **Get Info → Open with → Change All…**.
+<img src="https://raw.githubusercontent.com/ashishkulkarnii/BetterOpenWith/main/BetterOpenWith/Assets.xcassets/AppIcon.appiconset/icon_32x32@2x.png" width="16" height="16" alt=""> [Better Open With](https://github.com/ashishkulkarnii/BetterOpenWith) is a small macOS utility for changing the default app for a file type. Pick an extension, choose an installed compatible app, and apply the system default—just like Finder’s **Get Info → Open with → Change All…**.
 
 It also adds an optional Finder contextual menu for selecting an app without leaving Finder.
 
